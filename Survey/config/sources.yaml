@@ -1,0 +1,16 @@
+sources:
+
+  openalex:
+    enabled: true
+
+  semantic_scholar:
+    enabled: false
+
+  crossref:
+    enabled: false
+
+  ieee:
+    enabled: false
+
+  acm:
+    enabled: false

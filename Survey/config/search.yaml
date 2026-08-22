@@ -1,0 +1,25 @@
+search:
+  queries:
+
+  - "adversarial robustness framework image"
+
+  - "adversarial attack toolkit"
+
+  - "robustness benchmark image classification"
+
+  - "adversarial robustness evaluation framework"
+
+  - "image adversarial attack library"
+
+  - "computer vision adversarial robustness toolkit"
+
+  keywords:
+    required:
+      - adversarial
+      - robustness
+      - image
+
+    optional:
+      - framework
+      - toolkit
+      - benchmark
