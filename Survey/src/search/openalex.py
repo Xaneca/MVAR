@@ -49,7 +49,10 @@ class OpenAlexSearcher(BaseSearcher):
             ]
 
             # Keywords
-            j
+            keywords = [
+                keyword["display_name"]
+                for keyword in result.get("keywords", [])
+            ]
 
             # Publication type
             publication_type = result.get("type")
@@ -58,8 +61,6 @@ class OpenAlexSearcher(BaseSearcher):
             abstract = reconstruct_abstract(
                 result.get("abstract_inverted_index")
             )
-
-
 
             paper = Paper(
                 id = result.get("id"),
@@ -74,7 +75,7 @@ class OpenAlexSearcher(BaseSearcher):
                 publication_type=publication_type,
                 citations=result.get("cited_by_count"),
                 url=result.get("id"),
-                source="OpenAlex"
+                sources=["OpenAlex"]
             )
 
             papers.append(paper)

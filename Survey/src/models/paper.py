@@ -15,4 +15,4 @@ class Paper:
     publication_type: str | None = None
     citations: int | None = None                        # literature review
     url: str | None = None
-    source: str | None = None
+    sources: list[str] = field(default_factory=list)

@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+import time
 
 
 class BaseSearcher(ABC):
@@ -24,5 +25,7 @@ class BaseSearcher(ABC):
         for query in queries:
             print(f"Searching: {query}")
             papers.extend(self.search(query))
+
+            time.sleep(2)
 
         return papers

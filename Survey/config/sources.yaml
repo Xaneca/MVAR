@@ -1,10 +1,10 @@
 sources:
 
   openalex:
-    enabled: true
+    enabled: false
 
   semantic_scholar:
-    enabled: false
+    enabled: true
 
   crossref:
     enabled: false
