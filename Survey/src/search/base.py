@@ -26,6 +26,4 @@ class BaseSearcher(ABC):
             print(f"Searching: {query}")
             papers.extend(self.search(query))
 
-            time.sleep(2)
-
         return papers

@@ -2,7 +2,8 @@ from config_loader import load_search, load_sources
 from search.factory import create_searchers
 from models.paper import Paper
 from pprint import pprint
-
+from dotenv import load_dotenv
+from processing.deduplication import deduplicate_papers
 
 
 def main():
@@ -13,6 +14,7 @@ def main():
 
     sources = load_sources()
     search = load_search()
+    load_dotenv()               # grab our api key from the .env file
 
     searchers = create_searchers(sources)
 
@@ -43,6 +45,12 @@ def main():
     #############################
     # DEDUPLICATION AND MERGING #
     #############################
+    unique_papers = deduplicate_papers(
+        all_papers
+    )
+
+    print(f"Before: {len(all_papers)}")
+    print(f"After: {len(unique_papers)}")
 
 
     ####################################
