@@ -1,13 +1,13 @@
 sources:
 
   openalex:
-    enabled: false
+    enabled: true
 
   semantic_scholar:
     enabled: true
 
   crossref:
-    enabled: false
+    enabled: true
 
   ieee:
     enabled: false
