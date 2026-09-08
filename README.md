@@ -93,6 +93,16 @@ PRISMA Filtering
 Final Paper Dataset
 ```
 
+## Configuration
+
+API keys and private settings should be stored in a `.env` file.
+
+Example:
+    
+    SEMANTIC_SCHOLAR_API_KEY=your_api_key_here
+
+A `.env.example` file is provided as a template. Do not commit real API keys or private credentials.
+
 ## Data Sources
 
 * OpenAlex API
