@@ -13,9 +13,11 @@ This review will serve as the technical foundation to support the decisions and 
 
 ## Project Structure
 
+```text
 Survey/
 │
 ├── src/
+│   │
 │   ├── main.py
 │   ├── config_loader.py
 │   │
@@ -45,64 +47,31 @@ Survey/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Files Description
 
-main.py  
-Main entry point that runs the paper collection pipeline.
-
-config_loader.py  
-Loads configuration files and environment variables.
-
-config/search.yaml  
-Defines search queries and keyword configurations.
-
-config/sources.yaml  
-Controls which external databases are enabled.
-
-models/paper.py  
-Defines the common Paper data structure used by all APIs.
-
-search/base.py  
-Defines the common interface for all search engines.
-
-search/factory.py  
-Creates searcher instances according to configuration.
-
-search/openalex.py  
-Retrieves papers and metadata from OpenAlex API.
-
-search/semantic_scholar.py  
-Retrieves papers and metadata from Semantic Scholar API.
-
-search/crossref.py  
-Retrieves bibliographic metadata from Crossref API.
-
-utils/abstract.py  
-Cleans and normalizes paper abstracts.
-
-processing/deduplication.py  
-Removes duplicate papers collected from different sources.
-
-processing/merge.py  
-Combines information from multiple sources into a single paper record.
-
-processing/filtering.py  
-Applies PRISMA-based inclusion and exclusion criteria.
-
-.env  
-Stores private environment variables such as API keys.
-
-.env.example  
-Example environment configuration without sensitive information.
-
-requirements.txt  
-Lists all Python dependencies required by the project.
-
+* `main.py` - Main entry point that runs the complete pipeline.
+* `config_loader.py` - Loads configuration files and environment variables.
+* `config/search.yaml` - Defines search queries and keywords.
+* `config/sources.yaml` - Defines enabled data sources.
+* `models/paper.py` - Defines the common Paper data model.
+* `search/base.py` - Defines the common searcher interface.
+* `search/factory.py` - Creates searchers based on configuration.
+* `search/openalex.py` - Retrieves papers from OpenAlex API.
+* `search/semantic_scholar.py` - Retrieves papers from Semantic Scholar API.
+* `search/crossref.py` - Retrieves bibliographic metadata from Crossref API.
+* `utils/abstract.py` - Cleans and normalizes paper abstracts.
+* `processing/deduplication.py` - Removes duplicate papers from different sources.
+* `processing/merge.py` - Combines information from multiple sources.
+* `processing/filtering.py` - Applies PRISMA inclusion and exclusion criteria.
+* `.env` - Stores private environment variables and API keys.
+* `.env.example` - Example environment configuration without sensitive data.
+* `requirements.txt` - Lists project dependencies.
 
 ## Pipeline Overview
 
+```text
 Search Configuration
         |
         v
@@ -122,14 +91,13 @@ PRISMA Filtering
         |
         v
 Final Paper Dataset
-
+```
 
 ## Data Sources
 
-- OpenAlex API
-- Semantic Scholar API
-- Crossref API
-
+* OpenAlex API
+* Semantic Scholar API
+* Crossref API
 
 ## Goal
 
