@@ -13,7 +13,21 @@ search:
 
   - "computer vision adversarial robustness toolkit"
 
+  filtering:
+
+  metadata:
+
+    min_year: 2020
+
+    require_abstract: true
+
+    publication_types:
+      - article
+      - conference-paper
+
+
   keywords:
+
     required:
       - adversarial
       - robustness
@@ -23,3 +37,23 @@ search:
       - framework
       - toolkit
       - benchmark
+      - library
+      - evaluation
+
+
+  relevance:
+
+    weights:
+
+      adversarial: 3
+      robustness: 3
+      image: 2
+
+      framework: 3
+      toolkit: 3
+      benchmark: 2
+      library: 3
+      evaluation: 2
+
+
+    minimum_score: 6

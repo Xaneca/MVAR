@@ -16,3 +16,13 @@ class Paper:
     citations: int | None = None                        # literature review
     url: str | None = None
     sources: list[str] = field(default_factory=list)
+    score: float | None = None                            # filter relevance
+
+    def to_dict(self):
+
+        return self.__dict__
+
+    @classmethod
+    def from_dict(cls, data):
+
+        return cls(**data)
