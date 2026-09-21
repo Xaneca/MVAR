@@ -5,6 +5,7 @@ from pprint import pprint
 from dotenv import load_dotenv
 from processing.deduplication import deduplicate_papers
 from cache.manager import (create_hash, load_cache, save_cache)
+from search.manager import search_all_sources # threads - run api queries at same time
 
 
 def main():
@@ -42,27 +43,17 @@ def main():
             for paper in cached
         ]
 
-
     else:
 
         print("Searching APIs")
 
         searchers = create_searchers(sources)
-
-        all_papers = []
-
-        for searcher in searchers:
-
-            print("-" * 50)
-            print(
-                f"\nSearching with {searcher.__class__.__name__}:\n"
-            )
-            print("-" * 50)
-
-            papers = searcher.search_all(queries)
-
-            all_papers.extend(papers)
-
+        
+        # parallel search using threads
+        all_papers = search_all_sources(
+            searchers,
+            queries
+        )
 
         save_cache(
             cache_key,
