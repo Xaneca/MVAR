@@ -1,17 +1,18 @@
+import os
 import requests
 import time
-
 from models.paper import Paper
 from .base import BaseSearcher
+from tqdm import tqdm
 
 class SemanticScholarSearcher(BaseSearcher):
 
     BASE_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 
-    def __init__(self, api_key=None):
-        self.api_key = api_key
+    def __init__(self):
+        self.api_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
 
-    def request_with_retry(self, url, params, headers, retries=5):
+    def request_with_retry(self, url, params, headers, stop_event, retries=5):
 
         for attempt in range(retries):
 
@@ -26,22 +27,24 @@ class SemanticScholarSearcher(BaseSearcher):
 
                 wait_time = 2 ** attempt
 
-                print(
+                tqdm.write(
                     f"Semantic Scholar rate limit. "
                     f"Waiting {wait_time}s..."
                 )
 
-                time.sleep(wait_time)
+                # time.sleep(wait_time)
+                if stop_event.wait(wait_time):
+                    return None
 
                 continue
 
             response.raise_for_status()
             return response
         
-        print("Skipping query due to repeated rate limits.")
+        tqdm.write("Skipping query due to repeated rate limits.")
         return None
 
-    def search(self, query: str):
+    def search(self, query: str, stop_event):
 
         params = {
             "query": query,
@@ -64,12 +67,15 @@ class SemanticScholarSearcher(BaseSearcher):
             headers["x-api-key"] = self.api_key
 
 
-        time.sleep(2)
+        # time.sleep(2)
+        # if stop_event.wait(2):
+        #     return None
 
         response = self.request_with_retry(
             self.BASE_URL,
             headers=headers,
             params=params,
+            stop_event=stop_event,
             retries=5
         )
 

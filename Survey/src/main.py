@@ -1,3 +1,7 @@
+import os
+import signal
+from re import search
+
 from config_loader import load_search, load_sources
 from search.factory import create_searchers
 from models.paper import Paper
@@ -6,9 +10,16 @@ from dotenv import load_dotenv
 from processing.deduplication import deduplicate_papers
 from cache.manager import (create_hash, load_cache, save_cache)
 from search.manager import search_all_sources # threads - run api queries at same time
+from search.query_builder import build_queries
+
+def stop_on_interrupt(signum, frame):
+    print("\nExecution interrupted by user.", flush=True)
+    os._exit(130)
 
 
 def main():
+
+    signal.signal(signal.SIGINT, stop_on_interrupt)
 
     #####################################
     # EXTRACTION OF PAPERS FROM SOURCES #
@@ -19,7 +30,13 @@ def main():
     sources = load_sources()
     search = load_search()
 
-    queries = search["search"]["queries"]
+    # queries 
+    groups = search["search"]["groups"]
+    templates = search["search"]["templates"]
+    queries = build_queries(
+        groups,
+        templates
+    )
 
 
     ### CACHE MANAGEMENT ###
@@ -48,6 +65,8 @@ def main():
         print("Searching APIs")
 
         searchers = create_searchers(sources)
+        for i, searcher in enumerate(searchers):    # progress bar position for each searcher
+            searcher.position = i
         
         # parallel search using threads
         all_papers = search_all_sources(

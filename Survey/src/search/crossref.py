@@ -10,7 +10,10 @@ class CrossrefSearcher(BaseSearcher):
 
     BASE_URL = "https://api.crossref.org/works"
 
-    def search(self, query: str):
+    def search(self, query: str, stop_event):
+
+        if stop_event.is_set():
+            return []
 
         params = {
             "query": query,
@@ -32,7 +35,7 @@ class CrossrefSearcher(BaseSearcher):
             timeout=30
         )
 
-        time.sleep(1)
+        # time.sleep(1)
 
         response.raise_for_status()
 

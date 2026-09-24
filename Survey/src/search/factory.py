@@ -14,8 +14,7 @@ def create_searchers(sources_config):
         searchers.append(OpenAlexSearcher())
 
     if sources["semantic_scholar"]["enabled"]:
-        api_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
-        searchers.append(SemanticScholarSearcher(api_key))
+        searchers.append(SemanticScholarSearcher())
 
     if sources["crossref"]["enabled"]:
         searchers.append(CrossrefSearcher())
