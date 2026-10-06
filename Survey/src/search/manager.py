@@ -5,7 +5,8 @@ from threading import Event
 stop_event = Event()
 
 def run_search(searcher, queries):
-    return searcher.search_all(queries, stop_event)
+    papers = searcher.search_all(queries, stop_event)
+    return searcher.__class__.__name__, papers
 
 def search_all_sources(searchers, queries):
 
@@ -33,7 +34,8 @@ def search_all_sources(searchers, queries):
             )
 
             for future in done:
-                all_papers.extend(future.result())
+                searcher_name, papers = future.result()
+                all_papers.extend(papers)
 
     except KeyboardInterrupt:
 

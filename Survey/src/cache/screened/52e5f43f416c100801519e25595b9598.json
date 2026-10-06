@@ -1,0 +1,46 @@
+[
+    {
+        "id": "10.1109/ICASSP48485.2024.10447287",
+        "title": "Scale-Free And Task-Generic Attack: Generating Photo-Realistic Adversarial Patterns With Patch Quilting Generator",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Recent CNN generator-based attack approaches can synthe-size unrestricted and semantically meaningful entities to the image, which are able to improve the transferability and robustness. However, such methods attack images by either synthesizing local adversarial entities, which are only suitable for attacking specific contents, or performing global attacks, which are only applicable to a specific image scale. In this paper, we propose a novel Patch Quilting Generative Adversarial Networks (PQ-GAN) to learn the first scale-free CNN generator that can be applied to attack images with arbitrary scales for various computer vision tasks. The principal investigation on transferability of the generated adversarial examples, robustness to defense frameworks, and visual quality assessment show that the proposed PQG-based attack framework outperforms the other nine state-of-the-art adversarial attack approaches when attacking the neural networks trained on two standard evaluation datasets (i.e., ImageNet and CityScapes). Our code is made available at https://github.com/XiangboGaoBarry/PQAttack.",
+        "year": 2024,
+        "doi": "10.1109/ICASSP48485.2024.10447287",
+        "venue": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "keywords": [
+            "terms",
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/10447287/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 7
+    },
+    {
+        "id": null,
+        "title": "I See Dead People: Gray-Box Adversarial Attack on Image-To-Text Models",
+        "authors": [
+            "R. Lapid",
+            "M. Sipper"
+        ],
+        "abstract": "Modern image-to-text systems typically adopt the encoder-decoder framework, which comprises two main components: an image encoder, responsible for extracting image features, and a transformer-based decoder, used for generating captions. Taking inspiration from the analysis of neural networks' robustness against adversarial perturbations, we propose a novel gray-box algorithm for creating adversarial examples in image-to-text models. Unlike image classification tasks that have a finite set of class labels, finding visually similar adversarial examples in an image-to-text task poses greater challenges because the captioning system allows for a virtually infinite space of possible captions. In this paper, we present a gray-box adversarial attack on image-to-text, both untargeted and targeted. We formulate the process of discovering adversarial perturbations as an optimization problem that uses only the image-encoder component, meaning the proposed attack is language-model agnostic. Through experiments conducted on the ViT-GPT2 model, which is the most-used image-to-text model in Hugging Face, and the Flickr30k dataset, we demonstrate that our proposed attack successfully generates visually similar adversarial examples, both with untargeted and targeted captions. Notably, our attack operates in a gray-box manner, requiring no knowledge about the decoder module. We also show that our attacks fool the popular open-source platform Hugging Face.",
+        "year": 2023,
+        "doi": "10.48550/arXiv.2306.07591",
+        "venue": "PKDD/ECML Workshops",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 26,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 6
+    }
+]

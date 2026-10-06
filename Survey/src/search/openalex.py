@@ -69,7 +69,7 @@ class OpenAlexSearcher(BaseSearcher):
 
         params = {
             "search": query,
-            "per-page": 10,
+            "per-page": 20,
             "api-key": self.api_key,
         }
 

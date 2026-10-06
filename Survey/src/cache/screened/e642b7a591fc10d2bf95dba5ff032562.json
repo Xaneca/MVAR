@@ -1,0 +1,1006 @@
+[
+    {
+        "id": "https://openalex.org/W3034214559",
+        "title": "Benchmarking Adversarial Robustness on Image Classification",
+        "authors": [
+            "Yinpeng Dong",
+            "Qian Fu",
+            "Xiao Fang Yang",
+            "Tianyu Pang",
+            "Hang Su",
+            "Zihao Xiao",
+            "Jun Zhu"
+        ],
+        "abstract": "Deep neural networks are vulnerable to adversarial examples, which becomes one of the most important research problems in the development of deep learning. While a lot of efforts have been made in recent years, it is of great significance to perform correct and complete evaluations of the adversarial attack and defense algorithms. In this paper, we establish a comprehensive, rigorous, and coherent benchmark to evaluate adversarial robustness on image classification tasks. After briefly reviewing plenty of representative attack and defense methods, we perform large-scale experiments with two robustness curves as the fair-minded evaluation criteria to fully understand the performance of these methods. Based on the evaluation results, we draw several important findings that can provide insights for future research, including: 1) The relative robustness between models can change across different attack configurations, thus it is encouraged to adopt the robustness curves to evaluate adversarial robustness; 2) As one of the most effective defense techniques, adversarial training can generalize across different threat models; 3) Randomization-based defenses are more robust to query-based black-box attacks.",
+        "year": 2020,
+        "doi": "https://doi.org/10.1109/cvpr42600.2020.00040",
+        "venue": null,
+        "keywords": [
+            "Adversarial system",
+            "Robustness (evolution)",
+            "Benchmarking",
+            "Computer science",
+            "Artificial intelligence",
+            "Deep neural networks",
+            "Machine learning",
+            "Deep learning",
+            "Artificial neural network",
+            "Generalizability theory",
+            "Data mining",
+            "Mathematics"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Robustness (evolution)",
+            "Benchmarking",
+            "Computer science",
+            "Artificial intelligence",
+            "Deep neural networks",
+            "Machine learning",
+            "Deep learning",
+            "Artificial neural network",
+            "Generalizability theory",
+            "Data mining",
+            "Mathematics",
+            "Chemistry",
+            "Statistics",
+            "Gene",
+            "Business",
+            "Biochemistry",
+            "Marketing"
+        ],
+        "publication_type": "conference-paper",
+        "citations": 252,
+        "url": "https://openalex.org/W3034214559",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": 5
+    },
+    {
+        "id": "https://openalex.org/W3093235747",
+        "title": "RobustBench: a standardized adversarial robustness benchmark",
+        "authors": [
+            "Francesco Croce",
+            "Maksym Andriushchenko",
+            "Vikash Sehwag",
+            "Edoardo Debenedetti",
+            "Nicolas Flammarion",
+            "Mung Chiang",
+            "Prateek Mittal",
+            "Matthias Hein"
+        ],
+        "abstract": "As a research community, we are still lacking a systematic understanding of the progress on adversarial robustness which often makes it hard to identify the most promising ideas in training robust models. A key challenge in benchmarking robustness is that its evaluation is often error-prone leading to robustness overestimation. Our goal is to establish a standardized benchmark of adversarial robustness, which as accurately as possible reflects the robustness of the considered models within a reasonable computational budget. To this end, we start by considering the image classification task and introduce restrictions (possibly loosened in the future) on the allowed models. We evaluate adversarial robustness with AutoAttack, an ensemble of white- and black-box attacks, which was recently shown in a large-scale study to improve almost all robustness evaluations compared to the original publications. To prevent overadaptation of new defenses to AutoAttack, we welcome external evaluations based on adaptive attacks, especially where AutoAttack flags a potential overestimation of robustness. Our leaderboard, hosted at https://robustbench.github.io/, contains evaluations of 120+ models and aims at reflecting the current state of the art in image classification on a set of well-defined tasks in $\\ell_\\infty$- and $\\ell_2$-threat models and on common corruptions, with possible extensions in the future. Additionally, we open-source the library https://github.com/RobustBench/robustbench that provides unified access to 80+ robust models to facilitate their downstream applications. Finally, based on the collected models, we analyze the impact of robustness on the performance on distribution shifts, calibration, out-of-distribution detection, fairness, privacy leakage, smoothness, and transferability.",
+        "year": 2020,
+        "doi": "https://doi.org/10.48550/arxiv.2010.09670",
+        "venue": "arXiv (Cornell University)",
+        "keywords": [
+            "Robustness (evolution)",
+            "Computer science",
+            "Benchmarking",
+            "Machine learning",
+            "Benchmark (surveying)",
+            "Artificial intelligence",
+            "Data mining"
+        ],
+        "concepts": [
+            "Robustness (evolution)",
+            "Computer science",
+            "Benchmarking",
+            "Machine learning",
+            "Benchmark (surveying)",
+            "Artificial intelligence",
+            "Data mining",
+            "Gene",
+            "Marketing",
+            "Biochemistry",
+            "Business",
+            "Geodesy",
+            "Geography",
+            "Chemistry"
+        ],
+        "publication_type": "preprint",
+        "citations": 114,
+        "url": "https://openalex.org/W3093235747",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": 8
+    },
+    {
+        "id": "10.1109/ICASSP48485.2024.10447287",
+        "title": "Scale-Free And Task-Generic Attack: Generating Photo-Realistic Adversarial Patterns With Patch Quilting Generator",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Recent CNN generator-based attack approaches can synthe-size unrestricted and semantically meaningful entities to the image, which are able to improve the transferability and robustness. However, such methods attack images by either synthesizing local adversarial entities, which are only suitable for attacking specific contents, or performing global attacks, which are only applicable to a specific image scale. In this paper, we propose a novel Patch Quilting Generative Adversarial Networks (PQ-GAN) to learn the first scale-free CNN generator that can be applied to attack images with arbitrary scales for various computer vision tasks. The principal investigation on transferability of the generated adversarial examples, robustness to defense frameworks, and visual quality assessment show that the proposed PQG-based attack framework outperforms the other nine state-of-the-art adversarial attack approaches when attacking the neural networks trained on two standard evaluation datasets (i.e., ImageNet and CityScapes). Our code is made available at https://github.com/XiangboGaoBarry/PQAttack.",
+        "year": 2024,
+        "doi": "10.1109/ICASSP48485.2024.10447287",
+        "venue": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/10447287/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 7
+    },
+    {
+        "id": "10.1109/ICEARS64219.2025.10940731",
+        "title": "Mitigating Iterative Fast Gradient Adversarial Poisoning in Archaeological Image Datasets using Generative Adversarial Networks and Denoising Autoencoders",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "This paper presents an innovative approach for evaluating and improving the robustness of deep learning models against adversarial attacks for image datasets. In this framework, Generative Adversarial Networks (GANs) are proposed for synthetic image generation, and Denoising Autoencoders (DAEs) are used for noise removal. An adversarial training pipeline is used to generate adversarial examples and analyze the effect of these examples on model performance. A discriminator network is used for adversarial sample detection and classifying samples, whereas the autoencoder is used to minimize reconstruction errors by means of a robust image recovering algorithm. The evaluation contains metrics for an adversarial sample detection and reconstruction accuracy, thereby providing insight into the robustness or sometimes defense of ML models under adversarial conditions. The results indicate that this is able to detect adversarial influences on the models and mitigate them evidently, thus forming one step towards forming secure AI systems.",
+        "year": 2025,
+        "doi": "10.1109/ICEARS64219.2025.10940731",
+        "venue": "2025 International Conference on Electronics and Renewable Systems (ICEARS)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/10940731/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.1109/INSTCon69741.2026.11691726",
+        "title": "Cross-Adversarial Analysis and Enhancement of EfficientNet-B0 for Deepfake Detection Against White-box Adversarial Attacks",
+        "authors": [
+            "authors",
+            "Neha Niharika Kar",
+            "A. K. Saw",
+            "Suvendu Rup"
+        ],
+        "abstract": "The rapid rise of deepfake technology has increased the need for reliable detection methods. Existing leading models are still quite vulnerable to manipulations. Recent architectures based on EfficientNet have shown strong performance in spotting spatial artifacts for deepfake detection. However, their ability to handle adversarial attacks, especially white-box attacks, has not been thoroughly studied. This research presents a thorough assessment of the robustness of EfficientNet-B0 using the challenging Celeb-DF dataset. We evaluate its vulnerability to four common white-box attacks: FGSM, BIM, PGD, and the DF attack. The baseline model achieves a solid clean-image accuracy of 97.08%. However, our results show a performance drop of up to 30% in adversarial situations, revealing its weakness in real-world threat scenarios. To address this problem, we integrate a Feature Denoising block into the EfficientNet-B0 spatial branch and pair it with different adversarial training strategies, using perturbed samples from a single type of attack. Our evaluations of these defenses against various attacks show notable improvements in robustness. They also highlight key trade-offs between accuracy on unperturbed data and overall resilience against different attack types. In summary, this study sets a benchmark for the robustness of EfficientNet-based deepfake detectors and provides practical insights into the strengths and weaknesses of adversarial training as a defense strategy.",
+        "year": 2026,
+        "doi": "10.1109/INSTCon69741.2026.11691726",
+        "venue": "2026 IEEE 1st International Conference on Instrumentation (INSTCon)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/11691726/",
+        "sources": [
+            "IEEE",
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.1109/ICCCS57501.2023.10151180",
+        "title": "A Convenient Deep Learning Model Attack and Defense Evaluation Analysis Platform",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Researchers have been studying in recent years how to improve the security of deep learning models to resist adversarial attacks. However, attack and defense algorithms are generally targeted, a unified, comprehensive, efficient, and convenient analysis platform is needed for deep learning model security evaluation. Deep learning model security evaluation faces the following challenges:(i) The difference of deep learning frameworks used to generate models causes inconvenience in model security evaluation. (ii) Most of the attack and defense algorithms are not universally applicable. A comprehensive measurement baseline is needed to comprehensively evaluate various attack and defense algorithms. (iii) A set of quantitative metric system needs to be proposed. In this paper, a convenient deep learning model attack and defense evaluation analysis platform is designed to automate the evaluate process. Users need only a small amount of configuration to complete the evaluation of various attack and defense algorithms. The platform integrates a variety of black-box attack algorithms and white-box attack algorithms and 6 defense algorithms. Besides, a system of metrics is constructed, covering imperceptibility, robustness, attack efficiency, etc. Based on this platform, we evaluate the performance of various algorithms on common image classification models. Compared with other platforms, this platform is efficient and convenient for evaluation, and has a wide range of evaluation. It has the ability of comparing and analyzing models generated by various frameworks and is useful for research on the security of deep learning models.",
+        "year": 2023,
+        "doi": "10.1109/ICCCS57501.2023.10151180",
+        "venue": "2023 8th International Conference on Computer and Communication Systems (ICCCS)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/10151180/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.1109/CVPR52688.2022.00592",
+        "title": "Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Rain removal aims to remove rain streaks from images/videos and reduce the disruptive effects caused by rain. It not only enhances image/video visibility but also allows many computer vision algorithms to function properly. This paper makes the first attempt to conduct a comprehensive study on the robustness of deep learning-based rain removal methods against adversarial attacks. Our study shows that, when the image/video is highly degraded, rain removal methods are more vulnerable to the adversarial attacks as small distortions/perturbations become less noticeable or detectable. In this paper, we first present a comprehensive empirical evaluation of various methods at different levels of attacks and with various losses/targets to generate the perturbations from the perspective of human perception and machine analysis tasks. A systematic evaluation of key modules in existing methods is performed in terms of their robustness against adversarial attacks. From the insights of our analysis, we construct a more robust deraining method by integrating these effective modules. Finally, we examine various types of adversarial attacks that are specific to deraining problems and their effects on both human and machine vision tasks, including 1) rain region attacks, adding perturbations only in the rain regions to make the perturbations in the attacked rain images less visible; 2) object-sensitive attacks, adding perturbations only in regions near the given objects. Code is available at https://github.com/yuyi-sd/Robust_Rain_Removal.",
+        "year": 2022,
+        "doi": "10.1109/CVPR52688.2022.00592",
+        "venue": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 47,
+        "url": "https://ieeexplore.ieee.org/document/9879407/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.1109/PAEE71887.2026.11660678",
+        "title": "Adversarial Robustness of Transformer Architectures in Deep Metric Learning",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "In this work, we investigate the adversarial robustness of CNN- and transformer-based architectures within a Deep Metric Learning framework for zero-shot image retrieval. We conduct a comparative evaluation of ResNet50, ConvNeXt-T, DeiT-S, and Swin-T on the CUB-200-2011 and Cars196 benchmarks under FGSM, PGD, and Carlini & Wagner attacks formulated directly in the embedding space. The main contribution of this study is a systematic analysis of adversarial robustness in embedding-based retrieval settings across convolutional and transformer-based visual backbones. Our experiments reveal a substantial trade-off between clean retrieval accuracy and adversarial robustness. Although some transformer-based architectures demonstrate slightly improved robustness under limited perturbation budgets, all evaluated models remain highly vulnerable to strong iterative and optimisation-based attacks.",
+        "year": 2026,
+        "doi": "10.1109/PAEE71887.2026.11660678",
+        "venue": "2026 Progress in Applied Electrical Engineering (PAEE)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/11660678/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.1109/WACV57701.2024.00436",
+        "title": "Benchmark Generation Framework with Customizable Distortions for Image Classifier Robustness",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "We present a novel framework for generating adversarial benchmarks to evaluate the robustness of image classification models. Our framework allows users to customize the types of distortions to be optimally applied to images, which helps address the specific distortions relevant to their deployment. The benchmark can generate datasets at various distortion levels to assess the robustness of different image classifiers. Our results show that the adversarial samples generated by our framework with any of the image classification models, such as ResNet-50, Inception-V3 and VGG16, are effective and transferable to other models causing them to fail. These failures happen even when these models are adversarially retrained using state-of-the-art techniques, demonstrating the generalizability of our adversarial samples. We achieve competitive performance in terms of net L2 distortion compared to state-of-the-art benchmark techniques on CIFAR-10 and ImageNet; however, we demonstrate that our framework achieves such results with simple distortions like Gaussian noise without introducing unnatural artifacts or color bleeds. This is made possible by a model-based reinforcement learning (RL) agent and a technique that reduces a deep tree search of the image for model sensitivity to perturbations, to a one-level analysis and action. The flexibility of choosing distortions and setting classification probability thresholds for multiple classes makes our framework suitable for algorithmic audits.",
+        "year": 2024,
+        "doi": "10.1109/WACV57701.2024.00436",
+        "venue": "2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 1,
+        "url": "https://ieeexplore.ieee.org/document/10483918/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 6
+    },
+    {
+        "id": "10.1109/DSAA65442.2025.11248006",
+        "title": "ADT++: Advanced Adversarial Distributional Training with Class-Wise Robustness",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Adversarial training (AT) is widely regarded as a leading defense strategy for improving the robustness of deep learning models against adversarial attacks. However, existing AT methods often rely on a single attack strategy during training, which limits the exploration of the perturbation space and leads to poor generalization robustness against stronger, unseen, or adaptive adversarial attacks. Moreover, most AT approaches overlook class-wise robustness–the observed variation in robustness across different image classes–by focusing solely on average performance over the entire dataset. In this paper, we present Advanced Distributional Training with Class-wise Robustness (ADT++), a novel adversarial training framework that significantly improves generalization robustness against unseen and sophisticated adversarial attacks. Following the standard adversarial training framework, ADT++ is formulated as a minmax optimization problem, where the inner maximization aims to learn the worst-case adversarial distribution around adversarial examples to further explore the perturbation space. The outer minimization seeks to find model parameters that minimize the expected loss of the maximum inner loss. To further improve the generalization robustness, ADT++ leverages the class-wise robustness phenomenon by targeting the most vulnerable image classes with high-loss adversarial attacks to generate more impactful adversarial examples. Extensive evaluations on benchmark datasets and against various AT defense methods and adversarial attacks confirm the effectiveness of ADT++ in improving model robustness against stronger and adaptive attacks. The source code of ADT++ can be found.11https://github.com/LAiSR-SK/ADT2Plus",
+        "year": 2025,
+        "doi": "10.1109/DSAA65442.2025.11248006",
+        "venue": "2025 IEEE 12th International Conference on Data Science and Advanced Analytics (DSAA)",
+        "keywords": [
+            "terms",
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 1,
+        "url": "https://ieeexplore.ieee.org/document/11248006/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 6
+    },
+    {
+        "id": "10.1109/TPAMI.2026.3720232",
+        "title": "ATR-UAP: Enhancing the Transferability of Data-Free Universal Adversarial Perturbation via Adaptive Truncated Ratio Maximization",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Universal adversarial attacks aim to generate a single image-agnostic perturbation, known as Universal Adversarial Perturbation (UAP), that consistently misleads CNN models across diverse inputs, thus serving as an efficient tool for robustness evaluation. Early approaches to universal attacks typically rely on large-scale training data to optimize UAPs. However, in real-world scenarios, access to such data is often restricted due to privacy concerns or deployment constraints. To address this limitation, data-free universal attacks have been proposed to craft UAPs without requiring any real data. Nevertheless, existing data-free methods generally depend on pre-defined CNN layers (e.g., all or shallow layers), lacking adaptive selection mechanisms. This rigidity limits their transferability to unseen black-box models. Thus, in this paper, we propose a novel Adaptive Truncated Ratio Maximization approach for crafting data-free UAPs, referred to as ATR-UAP. Specifically, adaptive layer-wise weight learning is integrated into the ratio maximization framework, with the update direction jointly regulated by exclusive sparsity and prior guidance. Building on this, we further introduce a variance reduction strategy to uniformly smooth CNN activation values, thereby preventing UAP training from being dominated by extreme activations. Finally, we propose a curriculum-guided alternating optimization algorithm that promotes input diversity in data-free attack settings, while efficiently addressing the multivariate optimization challenge. Experimental results on various benchmark datasets consistently validate the superiority of the proposed ATR-UAP over state-of-the-art data-free UAP methods, particularly in cross-model and cross-task transferability. Furthermore, an in-depth evaluation from diverse perspectives confirms the improved generalization and robustness of our generated data-free UAPs.",
+        "year": 2026,
+        "doi": "10.1109/TPAMI.2026.3720232",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "keywords": [
+            "terms",
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Early Access Articles",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/11641038/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 8
+    },
+    {
+        "id": "10.1109/SIST61674.2026.11596316",
+        "title": "Security Challenges and Robustness of Computer Vision Systems to Adversarial Attacks",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "This study is to analyze and systematize adversarial attacks and defense mechanisms in computer vision systems to ensure the security and reliability of artificial intelligence. Key types of adversarial threats, including white-box and black-box attacks, are classified and evaluated. Three core research components are identified to enhance the robustness of neural networks: vulnerability analysis, the implementation of defense methods, and the development of a testing framework. The scientific novelty of this research is the structured approach to evaluating the resilience of deep learning models through a software prototype developed in Python. This approach allows for the demonstration of adversarial perturbations on image classification and the comparative analysis of mitigation techniques. The experimental results demonstrate that gradient-based attacks (FGSM, PGD) effectively compromise model integrity, reducing classification confidence from $\\mathbf{9 2} \\%$ to $\\mathbf{1 4} \\%$ at an epsilon ($\\boldsymbol{\\epsilon}$) of 0.05. Conversely, the proposed spatial filtering mitigation successfully restores correct classification in 76% of evasion scenarios. The findings of this study provide a systematic basis for auditing and protecting computer vision systems in critical domains such as autonomous transport, medical diagnostics, and biometric authentication at all stages of their implementation.",
+        "year": 2026,
+        "doi": "10.1109/SIST61674.2026.11596316",
+        "venue": "2026 IEEE 6th International Conference on Smart Information Systems and Technologies (SIST)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/11596316/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 7
+    },
+    {
+        "id": "10.1109/JBHI.2025.3584721",
+        "title": "Robust Multi-Contrast MRI Medical Image Translation via Knowledge Distillation and Adversarial Attack",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Medical image translation is of great value but is very difficult due to the requirement with style change of noise pattern and anatomy invariance of image content. Various deep learning methods like the mainstream GAN, Transformer and Diffusion models have been developed to learn the multi-modal mapping to obtain the translated images, but the results from the generator are still far from being perfect for medical images. In this paper, we propose a robust multi-contrast translation framework for MRI medical images with knowledge distillation and adversarial attack, which can be integrated with any generator. The additional refinement network consists of teacher and student modules with similar structures but different inputs. Unlike the existing knowledge distillation works, our teacher module is designed as a registration network with more inputs to better learn the noise distribution well and further refine the translated results in the training stage. The knowledge is then well distilled to the student module to ensure that better translation results are generated. We also introduce an adversarial attack module before the generator. Such a black-box attacker can generate meaningful perturbations and adversarial examples throughout the training process. Our model has been tested on two public MRI medical image datasets considering different types and levels of perturbations, and each designed module is verified by the ablation study. The extensive experiments and comparison with SOTA methods have strongly demonstrated our model’s superiority of refinement and robustness.",
+        "year": 2025,
+        "doi": "10.1109/JBHI.2025.3584721",
+        "venue": "IEEE Journal of Biomedical and Health Informatics",
+        "keywords": [
+            "terms",
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Journals",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/11060885/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.1109/ICIP42928.2021.9506493",
+        "title": "Self-Supervised Disentangled Embedding For Robust Image Classification",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Recently, the security of deep learning algorithms against adversarial samples has been widely recognized. Most of the existing defense methods only consider the attack influence on image level, while the effect of correlation among feature components has not been investigated. In fact, when one feature component is successfully attacked, its correlated components can be attacked with higher probability. In this paper, a self-supervised disentanglement based defense framework is proposed, providing a general tool to disentangle features by greatly reducing correlation among feature components, thus significantly improving the robustness of the classification network. The proposed framework reveals the important role of disentangled embedding in defending adversarial samples. Extensive experiments on several benchmark datasets validate that the proposed defense framework consistently presents its robustness against extensive adversarial attacks. Also, the proposed model can be applied to any typical defense method as a good promotion strategy.",
+        "year": 2021,
+        "doi": "10.1109/ICIP42928.2021.9506493",
+        "venue": "2021 IEEE International Conference on Image Processing (ICIP)",
+        "keywords": [
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Conferences",
+        "citations": 0,
+        "url": "https://ieeexplore.ieee.org/document/9506493/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 6
+    },
+    {
+        "id": "10.1109/TNNLS.2025.3561225",
+        "title": "A Survey and Evaluation of Adversarial Attacks in Object Detection",
+        "authors": [
+            "authors"
+        ],
+        "abstract": "Deep learning models achieve remarkable accuracy in computer vision tasks yet remain vulnerable to adversarial examples—carefully crafted perturbations to input images that can deceive these models into making confident but incorrect predictions. This vulnerability poses significant risks in high-stakes applications such as autonomous vehicles, security surveillance, and safety-critical inspection systems. While the existing literature extensively covers adversarial attacks in image classification, comprehensive analyses of such attacks on object detection systems remain limited. This article presents a novel taxonomic framework for categorizing adversarial attacks specific to object detection architectures, synthesizes existing robustness metrics, and provides a comprehensive empirical evaluation of state-of-the-art attack methodologies on popular object detection models, including both traditional detectors and modern detectors with vision-language pretraining. Through rigorous analysis of open-source attack implementations and their effectiveness across diverse detection architectures, we derive key insights into attack characteristics. Furthermore, we delineate critical research gaps and emerging challenges to guide future investigations in securing object detection systems against adversarial threats. Our findings establish a foundation for developing more robust detection models while highlighting the urgent need for standardized evaluation protocols in this rapidly evolving domain.",
+        "year": 2025,
+        "doi": "10.1109/TNNLS.2025.3561225",
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+        "keywords": [
+            "terms",
+            "terms"
+        ],
+        "concepts": [],
+        "publication_type": "Journals",
+        "citations": 29,
+        "url": "https://ieeexplore.ieee.org/document/10988892/",
+        "sources": [
+            "IEEE"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.31449/inf.v50i7.10877",
+        "title": "SA-FGSM: A Simulated Annealing-Enhanced Hybrid White-Box Adversarial Attack Framework",
+        "authors": [
+            "Djawhara Benchaira",
+            "Foudil Cherif",
+            "Cherif Foudil"
+        ],
+        "abstract": "The reliable evaluation of adversarial defenses is a critical challenge in deep learning security, often hindered by evaluation methods, such as Projected Gradient Descent (PGD), that can fail by getting trapped in local optima. This limitation can lead to a significant overestimation of a model’s true robustness. In this work, we introduce the Simulated Annealing-Fast Gradient Sign Method (SA-FGSM), a novel two-phase hybrid attack designed to overcome this specific weakness. SA-FGSM first employs Simulated Annealing to perform a global, stochastic exploration of the perturbation space to find promising attack regions, followed by a gradient-based step for finalization. We conduct a comprehensive evaluation on CIFAR-10 and CIFAR-100 against state-of-the-art adversarially trained models (ResNet-18 and WideResNet-28-10), showing that SA-FGSM achieves a mean attack success rate of 83.6% compared to 51.9% for a suite of strong baselines including FGSM, MI-FGSM, PGD, and APGD. Furthermore, we demonstrate that SA-FGSM finds qualitatively superior perturbations, evidenced by a statistically significant reduction in both average ℓ2 norm and perceptual distortion as measured by LPIPS (Learned Perceptual Image Patch Similarity), achieving 58.3% lower perceptual distance than gradient-based baselines. Analysis of the proposed attack variants identifies SA-FGSM-Swift as a particularly compelling option, offering state-of-the-art success rates at a fraction of the computational cost of stronger baselines. Our findings suggest that the robustness of even top-tier defenses may be overestimated and highlight the necessity of incorporating global search heuristics into standard evaluation protocols.",
+        "year": 2026,
+        "doi": "10.31449/inf.v50i7.10877",
+        "venue": "Informatica",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "journal-article",
+        "citations": 0,
+        "url": "https://doi.org/10.31449/inf.v50i7.10877",
+        "sources": [
+            "Crossref",
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.1109/cvpr52734.2025.01528",
+        "title": "Advancing Adversarial Robustness in GNeRFs: The IL2-NeRF Attack",
+        "authors": [
+            "Nicole Meng",
+            "Caleb Manicke",
+            "Ronak Sahu",
+            "Caiwen Ding",
+            "Yingjie Lao",
+            "N. Meng",
+            "Ying-Jie Lao"
+        ],
+        "abstract": "Generalizable Neural Radiance Fields (GNeRF) are recognized as one of the most promising techniques for novel view synthesis and 3D model generation in real-world applications. However, like other generative models in computer vision, ensuring their adversarial robustness against various threat models is essential for practical use. The pioneering work in this area, NeRFool, introduced a state-of-the-art attack that targets GNeRFs by manipulating source views before feature extraction, successfully disrupting the color and density results of the constructed views. Building on this foundation, we propose IL2-NeRF (Iterative L2 NeRF Attack), a novel adversarial attack method that explores a new threat model (in the L2 domain) for attacking GNeRFs. We evaluated IL2-NeRF against two standard GNeRF models across three benchmark datasets, demonstrating similar performance compared to NeRFool, based on the same evaluation metrics proposed by NeRFool. Our results establish IL2-NeRF as the first adversarial method for GNeRFs under the L2 norm. We establish a foundational L2 threat model for future research, enabling direct performance comparisons while introducing a smoother, image-wide perturbation approach in Adversarial 3D Reconstruction. Our code is available at: https://github.com/The-NRC-SCAR-Group/IL2-NeRF",
+        "year": 2025,
+        "doi": "10.1109/cvpr52734.2025.01528",
+        "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 5,
+        "url": "https://doi.org/10.1109/cvpr52734.2025.01528",
+        "sources": [
+            "Crossref",
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.24963/ijcai.2022/851",
+        "title": "CARBEN: Composite Adversarial Robustness Benchmark",
+        "authors": [
+            "Lei Hsiung",
+            "Yun-Yun Tsai",
+            "Pin-Yu Chen",
+            "Tsung-Yi Ho"
+        ],
+        "abstract": "Prior literature on adversarial attack methods has mainly focused on attacking with and defending against a single threat model, e.g., perturbations bounded in Lp ball. However, multiple threat models can be combined into composite perturbations. One such approach, composite adversarial attack (CAA), not only expands the perturbable space of the image, but also may be overlooked by current modes of robustness evaluation. This paper demonstrates how CAA's attack order affects the resulting image, and provides real-time inferences of different models, which will facilitate users' configuration of the parameters of the attack level and their rapid evaluation of model prediction. A leaderboard to benchmark adversarial robustness against CAA is also introduced.",
+        "year": 2022,
+        "doi": "10.24963/ijcai.2022/851",
+        "venue": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 9,
+        "url": "https://doi.org/10.24963/ijcai.2022/851",
+        "sources": [
+            "Crossref",
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": "10.31219/osf.io/wqu5e",
+        "title": "Novel Generative Adversarial Network with Enhanced Attention Mechanism for Robust Image Steganography",
+        "authors": [
+            "Waheed Rehman"
+        ],
+        "abstract": "The evolution of steganography has been fueled by advancementsin machine learning, yet achieving an optimal balance between imperceptibility, robustness, and embedding capacity remains a challenge.This paper introduces an attention-enhanced generative adversarialnetwork (AGAN) framework for image steganography. By incorporating spatial attention modules into the generator and discriminatornetworks, the proposed method identifies and utilizes regions of thecover image that are less perceptible to human vision for embeddingsecret data. This strategy minimizes perceptual distortion while maximizing robustness against steganalysis and image processing operations. Additionally, a hybrid loss function is introduced, combiningadversarial, reconstruction, and attention-guided perceptual losses toensure high-quality stego-images and reliable data recovery. Experimental evaluations on benchmark datasets demonstrate that AGANoutperforms state-of-the-art techniques in Peak Signal-to-Noise Ratio(PSNR), Structural Similarity Index Measure (SSIM), and resistanceto advanced detection tools. This work not only advances the capabilities of GAN-based steganography but also underscores the potentialof attention mechanisms in secure digital communication.",
+        "year": 2025,
+        "doi": "10.31219/osf.io/wqu5e",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 3,
+        "url": "https://doi.org/10.31219/osf.io/wqu5e",
+        "sources": [
+            "Crossref"
+        ],
+        "score": 6
+    },
+    {
+        "id": null,
+        "title": "I See Dead People: Gray-Box Adversarial Attack on Image-To-Text Models",
+        "authors": [
+            "R. Lapid",
+            "M. Sipper"
+        ],
+        "abstract": "Modern image-to-text systems typically adopt the encoder-decoder framework, which comprises two main components: an image encoder, responsible for extracting image features, and a transformer-based decoder, used for generating captions. Taking inspiration from the analysis of neural networks' robustness against adversarial perturbations, we propose a novel gray-box algorithm for creating adversarial examples in image-to-text models. Unlike image classification tasks that have a finite set of class labels, finding visually similar adversarial examples in an image-to-text task poses greater challenges because the captioning system allows for a virtually infinite space of possible captions. In this paper, we present a gray-box adversarial attack on image-to-text, both untargeted and targeted. We formulate the process of discovering adversarial perturbations as an optimization problem that uses only the image-encoder component, meaning the proposed attack is language-model agnostic. Through experiments conducted on the ViT-GPT2 model, which is the most-used image-to-text model in Hugging Face, and the Flickr30k dataset, we demonstrate that our proposed attack successfully generates visually similar adversarial examples, both with untargeted and targeted captions. Notably, our attack operates in a gray-box manner, requiring no knowledge about the decoder module. We also show that our attacks fool the popular open-source platform Hugging Face.",
+        "year": 2023,
+        "doi": "10.48550/arXiv.2306.07591",
+        "venue": "PKDD/ECML Workshops",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 26,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 6
+    },
+    {
+        "id": null,
+        "title": "Adversarial Example Quality Assessment: A Large-scale Dataset and Strong Baseline",
+        "authors": [
+            "Jia-Li Yin",
+            "Meng Chen",
+            "Jin Han",
+            "Bo-Hao Chen",
+            "Ximeng Liu"
+        ],
+        "abstract": "Adversarial examples (AEs), which are maliciously hand-crafted by adding perturbations to benign images, reveal the vulnerability of deep neural networks (DNNs) and have been used as a benchmark for evaluating model robustness. With great efforts have been devoted to generating AEs with stronger attack ability, the visual quality of AEs is generally neglected in previous studies. The lack of a good quality measure of AEs makes it very hard to compare the relative merits of attack techniques and is hindering technological advancement. How to evaluate the visual quality of AEs remains an understudied and unsolved problem. In this work, we make the first attempt to fill the gap by presenting an image quality assessment method specifically designed for AEs. Towards this goal, we first construct a new database, called AdvDB, developed on diverse adversarial examples with elaborated annotations. We also propose a detection-based structural similarity index (AdvDSS) for adversarial example perceptual quality assessment. Specifically, the visual saliency for capturing the near-threshold adversarial distortions is first detected via human visual system (HVS) techniques and then the structural similarity is extracted to predict the quality score. Moreover, we further propose AEQA for overall adversarial example quality assessment by integrating the perceptual quality and attack intensity of AEs. Extensive experiments validate that the proposed AdvDSS achieves state-of-the-art performance which is more consistent with human opinions.",
+        "year": 2024,
+        "doi": "10.1145/3664647.3681101",
+        "venue": "ACM Multimedia",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 1,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "JailBreakV: A Benchmark for Assessing the Robustness of MultiModal Large Language Models against Jailbreak Attacks",
+        "authors": [
+            "Weidi Luo",
+            "Siyuan Ma",
+            "Xiaogeng Liu",
+            "Xiaoyu Guo",
+            "Chaowei Xiao"
+        ],
+        "abstract": "With the rapid advancements in Multimodal Large Language Models (MLLMs), securing these models against malicious inputs while aligning them with human values has emerged as a critical challenge. In this paper, we investigate an important and unexplored question of whether techniques that successfully jailbreak Large Language Models (LLMs) can be equally effective in jailbreaking MLLMs. To explore this issue, we introduce JailBreakV-28K, a pioneering benchmark designed to assess the transferability of LLM jailbreak techniques to MLLMs, thereby evaluating the robustness of MLLMs against diverse jailbreak attacks. Utilizing a dataset of 2, 000 malicious queries that is also proposed in this paper, we generate 20, 000 text-based jailbreak prompts using advanced jailbreak attacks on LLMs, alongside 8, 000 image-based jailbreak inputs from recent MLLMs jailbreak attacks, our comprehensive dataset includes 28, 000 test cases across a spectrum of adversarial scenarios. Our evaluation of 10 open-source MLLMs reveals a notably high Attack Success Rate (ASR) for attacks transferred from LLMs, highlighting a critical vulnerability in MLLMs that stems from their text-processing capabilities. Our findings underscore the urgent need for future research to address alignment vulnerabilities in MLLMs from both textual and visual inputs.",
+        "year": 2024,
+        "doi": null,
+        "venue": "",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 270,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "Robust Adversarial Watermark Defending Against GAN Synthesization Attack",
+        "authors": [
+            "Shengwang Xu",
+            "Tong Qiao",
+            "Ming Xu",
+            "Wei Wang",
+            "Ning Zheng"
+        ],
+        "abstract": "The proliferation of facial manipulation has been propelled by generative adversarial networks (GAN), severely threatening to the personal privacy and reputation. Accordingly, one such countermeasure is adversarial watermark, which is embedded into the protected image prior to GAN synthesization attack, resulting into the distorted fake content obtained by malicious attackers. However, in practice, JPEG compression usually causes a remarkable degradation on the performance of adversarial watermark. To address this challengeable issue, this letter presents a novel robust adversarial watermark, which can effectively defend against GAN synthesization attack, even though suffering from JPEG compression. Extensive experiments verify the superiority of our proposed method in the benchmark dataset; more importantly, the robustness of the proposed adversarial watermark is comprehensively evaluated on the both simulated transmission channel and the realism social network platform.",
+        "year": 2024,
+        "doi": "10.1109/LSP.2024.3350983",
+        "venue": "IEEE Signal Processing Letters",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 11,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 6
+    },
+    {
+        "id": null,
+        "title": "ShieldNet: A Novel Adversarially Resilient Convolutional Neural Network for Robust Image Classification",
+        "authors": [
+            "A. Manzoor",
+            "Georgia Fargetta",
+            "A. Ortis",
+            "S. Battiato"
+        ],
+        "abstract": "The proliferation of biometric authentication systems in critical security applications has highlighted the urgent need for robust defense mechanisms against sophisticated adversarial attacks. This paper presents ShieldNet, an adversarially resilient Convolutional Neural Network (CNN) framework specifically designed for secure iris biometric authentication. Unlike existing approaches that apply adversarial training or gradient regularization independently, ShieldNet introduces a synergistic dual-layer defense framework featuring three key components: (1) an attack-aware adaptive weighting mechanism that dynamically balances defense priorities across multiple attack types, (2) a smoothness-regularized gradient penalty formulation that maintains differentiable gradients while encouraging locally smooth loss landscapes, and (3) a consistency loss component that enforces prediction stability between clean and adversarial inputs. Through extensive experimental validation across three diverse iris datasets, MMU1, CASIA-Iris-Africa, and UBIRIS.v2, and rigorous evaluation against strong adaptive attacks including AutoAttack, PGD-100 with random restarts, and transfer-based black-box attacks, ShieldNet demonstrated robust performance, achieving 87.3% adversarial accuracy under AutoAttack on MMU1, 85.1% on CASIA-Iris-Africa, and 82.4% on UBIRIS.v2, while maintaining competitive clean data accuracies of 94.7%, 93.9%, and 92.8%, respectively. The proposed framework outperforms existing state-of-the-art defense methods including TRADES, MART, and AWP, achieving an equal error rate (EER) as low as 2.8% and demonstrating consistent robustness across both gradient-based and gradient-free attack scenarios. Comprehensive ablation studies validate the complementary contributions of each defense component, while latent space analysis confirms that ShieldNet learns genuinely robust feature representations rather than relying on gradient obfuscation. These results establish ShieldNet as a practical and reliable solution for deployment in high-security biometric authentication environments.",
+        "year": 2026,
+        "doi": "10.3390/app16031254",
+        "venue": "Applied Sciences",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 1,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "Towards Robust Person Re-Identification by Adversarial Training With Dynamic Attack Strategy",
+        "authors": [
+            "Jiwei Wei",
+            "Cheng-Lu Pan",
+            "Shi-Yuan He",
+            "Guo-Qing Wang",
+            "Yang Yang",
+            "H. Shen"
+        ],
+        "abstract": "Recently, person re-identification has gained significant attention from both academic and industry fields due to its potential applications in surveillance and security. However, the security of re-identification systems has not been widely investigated, and they are vulnerable to adversarial attacks, which can significantly degrade their performance. Although numerous sophisticated adversarial training methods have been proposed for image classification, metric analysis systems such as person re-identification have not been fully explored. In this paper, we develop a novel adversarial training framework with a dynamic attack strategy for person re-identification, to further enhance the robustness of the model. Specifically, we gradually increase the perturbation budget during the generation until the generated adversarial examples reach a certain level of attack strength. As the iterations progress, the model becomes more robust, and our framework can generate stronger adversarial examples to continuously explore the robustness bounds of the model. Moreover, to alleviate the conflict between the adversarial robustness and natural generalization of the model, we design a novel performance alignment loss to further constrain the adversarial example generation process, which can make the generated adversarial examples as close as possible to the clean samples in terms of performance. Experiments on two widely used person re-ID benchmark datasets demonstrate the effectiveness and superiority of our proposed method.",
+        "year": 2024,
+        "doi": "10.1109/TMM.2024.3407677",
+        "venue": "IEEE transactions on multimedia",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 8,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 6
+    },
+    {
+        "id": null,
+        "title": "CANARY: An Adversarial Robustness Evaluation Platform for Deep Learning Models on Image Classification",
+        "authors": [
+            "Jia-Zheng Sun",
+            "L. Chen",
+            "Chenxiao Xia",
+            "Da Zhang",
+            "Rong Huang",
+            "Zhiyang Qiu",
+            "Wenqi Xiong",
+            "Jun Zheng",
+            "Yu-An Tan"
+        ],
+        "abstract": "The vulnerability of deep-learning-based image classification models to erroneous conclusions in the presence of small perturbations crafted by attackers has prompted attention to the question of the models’ robustness level. However, the question of how to comprehensively and fairly measure the adversarial robustness of models with different structures and defenses as well as the performance of different attack methods has never been accurately answered. In this work, we present the design, implementation, and evaluation of Canary, a platform that aims to answer this question. Canary uses a common scoring framework that includes 4 dimensions with 26 (sub)metrics for evaluation. First, Canary generates and selects valid adversarial examples and collects metrics data through a series of tests. Then it uses a two-way evaluation strategy to guide the data organization and finally integrates all the data to give the scores for model robustness and attack effectiveness. In this process, we use Item Response Theory (IRT) for the first time to ensure that all the metrics can be fairly calculated into a score that can visually measure the capability. In order to fully demonstrate the effectiveness of Canary, we conducted large-scale testing of 15 representative models trained on the ImageNet dataset using 12 white-box attacks and 12 black-box attacks and came up with a series of in-depth and interesting findings. This further illustrates the capabilities and strengths of Canary as a benchmarking platform. Our paper provides an open-source framework for model robustness evaluation, allowing researchers to perform comprehensive and rapid evaluations of models or attack/defense algorithms, thus inspiring further improvements and greatly benefiting future work.",
+        "year": 2023,
+        "doi": "10.3390/electronics12173665",
+        "venue": "Electronics",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 5,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 10
+    },
+    {
+        "id": null,
+        "title": "How Many Unicorns Are in This Image? A Safety Evaluation Benchmark for Vision LLMs",
+        "authors": [
+            "Hao-Qin Tu",
+            "Chenhang Cui",
+            "Zi-Jun Wang",
+            "Yi-Yang Zhou",
+            "Bing-Chen Zhao",
+            "Junlin Han",
+            "Wangchunshu Zhou",
+            "Huaxiu Yao",
+            "Ci-Hang Xie"
+        ],
+        "abstract": "This work focuses on the potential of Vision LLMs (VLLMs) in visual reasoning. Different from prior studies, we shift our focus from evaluating standard performance to introducing a comprehensive safety evaluation suite, covering both out-of-distribution (OOD) generalization and adversarial robustness. For the OOD evaluation, we present two novel VQA datasets, each with one variant, designed to test model performance under challenging conditions. In exploring adversarial robustness, we propose a straightforward attack strategy for misleading VLLMs to produce visual-unrelated responses. Moreover, we assess the efficacy of two jailbreaking strategies, targeting either the vision or language component of VLLMs. Our evaluation of 21 diverse models, ranging from open-source VLLMs to GPT-4V, yields interesting observations: 1) Current VLLMs struggle with OOD texts but not images, unless the visual information is limited; and 2) These VLLMs can be easily misled by deceiving vision encoders only, and their vision-language training often compromise safety protocols. We release this safety evaluation suite at https://github.com/UCSC-VLAA/vllm-safety-benchmark.",
+        "year": 2023,
+        "doi": "10.48550/arXiv.2311.16101",
+        "venue": "arXiv.org",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 115,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "A Comprehensive Toolkit for Generalized Robust Vision",
+        "authors": [
+            "Zhao Li",
+            "Yue-Feng Chen",
+            "Hui Xue",
+            "Xiaofeng Mao"
+        ],
+        "abstract": "While deep neural networks (DNNs) excel in computer vision tasks, their real-world deployment is hindered by robustness limitations compared to human perception. Adversarial attacks and data distribution shifts remain critical vulnerabilities, degrading model performance under practical conditions. To address these challenges and advance robustness research, we introduce a comprehensive, user-friendly toolkit for training, evaluating, and analyzing robust vision models. It targets two key dimensions of robustness: 1) Adversarial robustness-defending against malicious worst-case perturbations (adversarial examples); 2) Natural robustness-maintaining performance under real-world corruptions and distribution shifts. Through extensive image classification benchmarks, our toolkit enables precise model assessment. We envision this toolkit accelerating the development of practically robust models and bridging the gap between machine and human vision capabilities.",
+        "year": 2025,
+        "doi": "10.1145/3746252.3761631",
+        "venue": "International Conference on Information and Knowledge Management",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "EasyRobust: A Comprehensive and Easy-to-use Toolkit for Robust and Generalized Vision",
+        "authors": [
+            "Xiaofeng Mao",
+            "Yue-Feng Chen",
+            "Rong Zhang",
+            "Hui Xue",
+            "Zhao Li",
+            "Hang Su"
+        ],
+        "abstract": "Deep neural networks (DNNs) has shown great promise in computer vision tasks. However, machine vision achieved by DNNs cannot be as robust as human perception. Adversarial attacks and data distribution shifts have been known as two major scenarios which degrade machine performance and obstacle the wide deployment of machines\"in the wild\". In order to break these obstructions and facilitate the research of model robustness, we develop EasyRobust, a comprehensive and easy-to-use toolkit for training, evaluation and analysis of robust vision models. EasyRobust targets at two types of robustness: 1) Adversarial robustness enables the model to defense against malicious inputs crafted by worst-case perturbations, also known as adversarial examples; 2) Non-adversarial robustness enhances the model performance on natural test images with corruptions or distribution shifts. Thorough benchmarks on image classification enable EasyRobust to provide an accurate robustness evaluation on vision models. We wish our EasyRobust can help for training practically-robust models and promote academic and industrial progress in closing the gap between human and machine vision. Codes and models of EasyRobust have been open-sourced in https://github.com/alibaba/easyrobust.",
+        "year": 2025,
+        "doi": "10.48550/arXiv.2503.16975",
+        "venue": "arXiv.org",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "A Spatially Distributed Perturbation Strategy with Smoothed Gradient Sign Method for Adversarial Analysis of Image Classification Systems",
+        "authors": [
+            "Yanwei Xu",
+            "Jun Li",
+            "Dajun Chang",
+            "Yuanfang Dong"
+        ],
+        "abstract": "As deep learning models are increasingly embedded as critical components within complex socio-technical systems, understanding and evaluating their systemic robustness against adversarial perturbations has become a fundamental concern for system safety and reliability. Deep neural networks (DNNs) are highly effective in visual recognition tasks but remain vulnerable to adversarial perturbations, which can compromise their reliability in safety-critical applications. Existing attack methods often distribute perturbations uniformly across the input, ignoring the spatial heterogeneity of model sensitivity. In this work, we propose the Spatially Distributed Perturbation Strategy with Smoothed Gradient Sign Method (SD-SGSM), a adversarial attack framework that exploits decision-dependent regions to maximize attack effectiveness while minimizing perceptual distortion. SD-SGSM integrates three key components: (i) decision-dependent domain identification to localize critical features using a deterministic zero-out operator; (ii) spatially adaptive perturbation allocation to concentrate attack energy on sensitive regions while constraining background disturbance; and (iii) gradient smoothing via a hyperbolic tangent transformation to enable fine-grained and continuous perturbation updates. Extensive experiments on CIFAR-10 demonstrate that SD-SGSM achieves near-perfect attack success rates (ASR 99.9%) while substantially reducing ℓ2 distortion and preserving high structural similarity (SSIM 0.947), outperforming both single-step and momentum-based iterative attacks. Ablation studies further confirm that spatial distribution and gradient smoothing act as complementary mechanisms, jointly enhancing attack potency and visual fidelity. These findings underscore the importance of spatially aware, decision-dependent adversarial strategies for system-level robustness assessment and the secure design of AI-enabled systems.",
+        "year": 2026,
+        "doi": "10.3390/e28020193",
+        "venue": "Entropy",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "Universal Adversarial Perturbations for Two-Stage Black-Box Object Detectors",
+        "authors": [
+            "Peng Wu",
+            "Amidu Kamara",
+            "Mohen Imani",
+            "Nathaniel D. Bastian",
+            "Mahdi Imani"
+        ],
+        "abstract": "Robustness against adversarial perturbations is critical for machine learning models in security-sensitive domains such as threat detection in luggage scans, medical imaging, autonomous driving, biometrics, and military surveillance. However, existing adversarial attack methods often require detailed knowledge of model architectures or generate image-specific perturbations that fail to generalize. In this paper, we propose a novel universal adversarial perturbation (UAP) framework specifically designed for two-stage black-box object detection systems. Our approach employs a two-stage loss function that strategically disrupts both the region proposal network to reduce candidate detections and the region of interest head to impair object classification, resulting in more effective and visually imperceptible attacks. In addition, we extend UAP evaluation to a semi-model-agnostic framework that systematically assesses the transferability of perturbations across diverse commercial detection systems, enabling robust comparison without requiring access to internal model parameters. We present numerical experiments across diverse detection architectures, highlighting both overall and category-specific vulnerabilities to transferable adversarial attacks. These findings contribute to the practical evaluation of object detection robustness and support reliable deployment in real-world environments where resistance to transferable attacks is critical.",
+        "year": 2025,
+        "doi": "10.1109/IEEECONF67917.2025.11443922",
+        "venue": "Asilomar Conference on Signals, Systems and Computers",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 1,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 7
+    },
+    {
+        "id": null,
+        "title": "DDSA: Dual-Domain Strategic Attack for Spatial-Temporal Efficiency in Adversarial Robustness Testing",
+        "authors": [
+            "Jinwei Hu",
+            "Shiyuan Meng",
+            "Yi Dong",
+            "Xiao-Wei Huang"
+        ],
+        "abstract": "Image transmission and processing systems in resource-critical applications face significant challenges from adversarial perturbations that compromise mission-specific object classification. Current robustness testing methods require excessive computational resources through exhaustive frame-by-frame processing and full-image perturbations, proving impractical for large-scale deployments where massive image streams demand immediate processing. This paper presents DDSA (Dual-Domain Strategic Attack), a resource-efficient adversarial robustness testing framework that optimizes testing through temporal selectivity and spatial precision. We introduce a scenario-aware trigger function that identifies critical frames requiring robustness evaluation based on class priority and model uncertainty, and employ explainable AI techniques to locate influential pixel regions for targeted perturbation. Our dual-domain approach achieves substantial temporal-spatial resource conservation while maintaining attack effectiveness. The framework enables practical deployment of comprehensive adversarial robustness testing in resource-constrained real-time applications where computational efficiency directly impacts mission success.",
+        "year": 2026,
+        "doi": "10.1109/ICASSP55912.2026.11463484",
+        "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "Reinforcement Learning Platform for Adversarial Black-box Attacks with Custom Distortion Filters",
+        "authors": [
+            "S. Sarkar",
+            "A. Babu",
+            "Sajad Mousavi",
+            "Vineet Gundecha",
+            "Sahand Ghorbanpour",
+            "Avisek Naug",
+            "Ricardo Luna Gutiérrez",
+            "Antonio Guillen",
+            "Desik Rengarajan"
+        ],
+        "abstract": "We present a Reinforcement Learning Platform for Adversarial Black-box untargeted and targeted attacks, RLAB, that allows users to select from various distortion filters to create adversarial examples. The platform uses a Reinforcement Learning agent to add minimum distortion to input images while still causing misclassification by the target model. The agent uses a novel dual-action method to explore the input image at each step to identify sensitive regions for adding distortions while removing noises that have less impact on the target model. This dual action leads to faster and more efficient convergence of the attack. The platform can also be used to measure the robustness of image classification models against specific distortion types. Also, retraining the model with adversarial samples significantly improved robustness when evaluated on benchmark datasets. The proposed platform outperforms state-of-the-art methods in terms of the average number of queries required to cause misclassification. This advances trustworthiness with a positive social impact.",
+        "year": 2025,
+        "doi": "10.1609/aaai.v39i26.34976",
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 7,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 6
+    },
+    {
+        "id": null,
+        "title": "Multi-source Knowledge Guided Black-box Adversarial Sample Generation",
+        "authors": [
+            "Ming-Zhong Wang",
+            "Zhen-Jiang Li"
+        ],
+        "abstract": "Deep neural networks demonstrate outstanding performance in tasks such as image processing, but their vulnerability to adversarial examples raises security concerns. Black-box attacks, the primary threat in practical scenarios, face efficiency bottlenecks due to their reliance on extensive queries. Existing methods also underutilize prior knowledge about dataset-intrinsic semantic information and category associations. To address this, this paper proposes a multi-source knowledge-guided black-box attack optimization framework. By incorporating category associations and image semantic information, it enhances adversarial sample generation efficiency, providing an effective tool for model robustness evaluation. Experiments on CIFAR10, MNIST, and ImageNet demonstrate that this method significantly improves black-box attack efficiency. It also reveals distinct adversarial vulnerabilities across datasets: CIFAR10 exhibits greater susceptibility to edge perturbations, while MNIST focuses on stroke-center disturbances. These findings provide valuable insights for developing dataset-adaptive attacks.",
+        "year": 2026,
+        "doi": "10.1145/3819836.3819854",
+        "venue": "Proceedings of the 2026 5th International Conference on Cyber Security, Artificial Intelligence and Digital Economy",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "Black-box, Adaptive, Efficient, Transferable, Harmful, Applicable... Attacks Are All You Need to Break LLMs",
+        "authors": [
+            "Vincent Limbach",
+            "Jonas Dornbusch",
+            "David Lüdke",
+            "Stephan Günnemann",
+            "Leo Schwinn"
+        ],
+        "abstract": "Accurately evaluating adversarial robustness is a longstanding challenge. A flawed attack design can inflate robustness estimates, making deployment risk assessment and defense comparison unreliable. Historically, standardized attacks such as AutoAttack have largely resolved this for image classifiers, providing a reliable evaluation baseline for systematic comparison across defenses. However, no equivalent exists for LLM jailbreak evaluation yet, where designing such an attack is considerably more difficult. A reliable attack must, among other things, be black-box compatible, applicable to arbitrary defense pipelines, and efficient, which no existing method jointly satisfies. We introduce Indirect Harm Optimization (IHO), a masked diffusion language model attacker trained via iterative preference optimization against a harmfulness judge, requiring only black-box access to the target. The same method can be used without modification as a strong adaptive attack on individual behaviors, or as an efficient amortized policy that transfers to held-out behaviors and unseen target models without fine-tuning. Even against layered defenses, such as a Circuit Breaker-trained model combined with an auxiliary detector, IHO improves attack success considerably over state-of-the-art approaches, without any defense-specific adaptation. Our results position IHO as a practical step toward the kind of standardized jailbreak evaluation that has improved reliability in the past. Code and models are available on GitHub and Hugging Face.",
+        "year": 2026,
+        "doi": "10.48550/arXiv.2606.03647",
+        "venue": "arXiv.org",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 6
+    },
+    {
+        "id": null,
+        "title": "Enhancing Robustness in UDC Image Restoration Through Adversarial Purification and Fine-Tuning",
+        "authors": [
+            "Wen-Jie Dong",
+            "Zhenbo Song",
+            "Zhenyuan Zhang",
+            "Xuanzheng Lin",
+            "Jianfeng Lu"
+        ],
+        "abstract": "This study presents a novel defense framework to fortify Under-Display Camera (UDC) image restoration models against adversarial attacks, a previously underexplored vulnerability in this domain. Our research initially conducts an in-depth robustness evaluation of deep-learning-based UDC image restoration models by employing several white-box and black-box attacking methods. Following the assessment, we propose a two-stage approach integrating diffusion-based adversarial purification and efficient fine-tuning, uniquely designed to eliminate perturbations while retaining restoration fidelity. For the first time, we systematically evaluate seven state-of-the-art UDC models (such as DISCNet, UFormer, etc.) under diverse attacks (PGD, C&W, etc.), revealing severe performance degradation (DISCNet’s PSNR drops from 35.24 to 15.16 under C&W attack). Our framework demonstrates significant improvements: after purification and fine-tuning, DISCNet’s PSNR rebounds to 32.17 under PGD attack (vs. 30.17 without defense), while UFormer achieves a 19.71 PSNR under LPIPS-guided attacks (vs. 17.38 baseline). The effectiveness of our proposed approach is validated through extensive experiments, showing marked improvements in resilience against various adversarial attacks.",
+        "year": 2025,
+        "doi": "10.3390/s25113386",
+        "venue": "Italian National Conference on Sensors",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 7
+    },
+    {
+        "id": null,
+        "title": "FPGA Adaptive Neural Network Quantization for Adversarial Image Attack Defense",
+        "authors": [
+            "Yu-Feng Lu",
+            "Xiaokang Shi",
+            "Jianan Jiang",
+            "Hanhui Deng",
+            "Yan-Wen Wang",
+            "Jiwu Lu",
+            "Di Wu"
+        ],
+        "abstract": "Quantized neural networks (QNNs) have become a standard operation for efficiently deploying deep learning models on hardware platforms in real application scenarios. An empirical study on German traffic sign recognition benchmark (GTSRB) dataset shows that under the three white-box adversarial attacks of fast gradient sign method, random + fast gradient sign method and basic iterative method, the accuracy of the full quantization model was only 55%, much lower than that of the full precision model (73%). This indicates the adversarial robustness of the full quantization model is much worse than that of the full precision model. To improve the adversarial robustness of the full quantization model, we have designed an adversarial attack defense platform based on field-programmable gate array (FPGA) to jointly optimize the efficiency and robustness of QNNs. Various hardware-friendly techniques such as adversarial training and feature squeezing were studied and transferred to the FPGA platform based on the designed accelerator of QNN. Experiments on the GTSRB dataset show that the adversarial training embedded on FPGA can increase the model's average accuracy by 2.5% on clean data, 15% under white-box attacks, and 4% under black-box attacks, respectively, demonstrating our methodology can improve the robustness of the full quantization model under different adversarial attacks.",
+        "year": 2024,
+        "doi": "10.1109/TII.2024.3438284",
+        "venue": "IEEE Transactions on Industrial Informatics",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 3,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 6
+    },
+    {
+        "id": null,
+        "title": "The Race to Robustness: Exploiting Fragile Models for Urban Camouflage and the Imperative for Machine Learning Security",
+        "authors": [
+            "Harriet Farlow",
+            "M. Garratt",
+            "G. Mount",
+            "Timothy Lynar"
+        ],
+        "abstract": "Adversarial Machine Learning (AML) represents the ability to disrupt Machine Learning (ML) algorithms through a range of methods that broadly exploit the architecture of deep learning optimisation. This paper presents Distributed Adversarial Regions (DAR), a novel method that implements distributed instantiations of computer vision-based AML attack methods that may be used to disguise objects from image recognition in both white and black box settings. We consider the context of object detection models used in urban environments, and benchmark the MobileNetV2, NasNetMobile and DenseNet169 models against a subset of relevant images from the ImageNet dataset. We evaluate optimal parameters (size, number and perturbation method), and compare to state-of-the-art AML techniques that perturb the entire image. We find that DARs can cause a reduction in confidence of 40.4% on average, but with the benefit of not requiring the entire image, or the focal object, to be perturbed. The DAR method is a deliberately simple approach where the intention is to highlight how an adversary with very little skill could attack models that may already be productionised, and to emphasise the fragility of foundational object detection models. We present this as a contribution to the field of ML security as well as AML. This paper contributes a novel adversarial method, an original comparison between DARs and other AML methods, and frames it in a new context - that of urban camouflage and the necessity for ML security and model robustness.",
+        "year": 2023,
+        "doi": "10.1109/TENSYMP55890.2023.10223620",
+        "venue": "2023 IEEE Region 10 Symposium (TENSYMP)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 2,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 5
+    },
+    {
+        "id": null,
+        "title": "Adversarial Attacks on ML Defense Models Competition",
+        "authors": [
+            "Yinpeng Dong",
+            "Qi-An Fu",
+            "Xiao Yang",
+            "Wen-Zhao Xiang",
+            "Tianyu Pang",
+            "Hang Su",
+            "Jun Zhu",
+            "Jiayu Tang",
+            "Yue-Feng Chen",
+            "Xiaofeng Mao",
+            "Yuan He",
+            "Hui Xue",
+            "Chao Li",
+            "Ye Liu",
+            "Qilong Zhang",
+            "Lianli Gao",
+            "yunrui yu",
+            "Xitong Gao",
+            "Zhe Zhao",
+            "Daquan Lin",
+            "Jiadong Lin",
+            "Chuan-Biao Song",
+            "Zihao Wang",
+            "Zhennan Wu",
+            "Yang Guo",
+            "Jiequan Cui",
+            "Xiao-Gang Xu",
+            "Pengguang Chen"
+        ],
+        "abstract": "Due to the vulnerability of deep neural networks (DNNs) to adversarial examples, a large number of defense techniques have been proposed to alleviate this problem in recent years. However, the progress of building more robust models is usually hampered by the incomplete or incorrect robustness evaluation. To accelerate the research on reliable evaluation of adversarial robustness of the current defense models in image classification, the TSAIL group at Tsinghua University and the Alibaba Security group organized this competition along with a CVPR 2021 workshop on adversarial machine learning (https://aisecure-workshop.github.io/amlcvpr2021/). The purpose of this competition is to motivate novel attack algorithms to evaluate adversarial robustness more effectively and reliably. The participants were encouraged to develop stronger white-box attack algorithms to find the worst-case robustness of different defenses. This competition was conducted on an adversarial robustness evaluation platform -- ARES (https://github.com/thu-ml/ares), and is held on the TianChi platform (https://tianchi.aliyun.com/competition/entrance/531847/introduction) as one of the series of AI Security Challengers Program. After the competition, we summarized the results and established a new adversarial robustness benchmark at https://ml.cs.tsinghua.edu.cn/ares-bench/, which allows users to upload adversarial attack algorithms and defense models for evaluation.",
+        "year": 2021,
+        "doi": null,
+        "venue": "arXiv.org",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 3,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": 8
+    }
+]

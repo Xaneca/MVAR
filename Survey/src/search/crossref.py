@@ -17,7 +17,7 @@ class CrossrefSearcher(BaseSearcher):
 
         params = {
             "query": query,
-            "rows": 10,
+            "rows": 20,
 
         }
 

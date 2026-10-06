@@ -19,9 +19,9 @@ def create_hash(config: dict) -> str:
 
 
 def load_cache(cache_key, folder):
-    if folder not in ("raw", "processed"):
+    if folder not in ("raw", "processed", "screened"):
         raise ValueError(
-            "Invalid folder name. Must be 'raw' or 'processed'."
+            "Invalid folder name. Must be 'raw', 'processed' or 'screened'."
         )
 
     path = CACHE_DIR / f"{folder}" / f"{cache_key}.json"
@@ -39,9 +39,9 @@ def load_cache(cache_key, folder):
 
 
 def save_cache(cache_key, data, folder):
-    if folder not in ("raw", "processed"):
+    if folder not in ("raw", "processed", "screened"):
         raise ValueError(
-            "Invalid folder name. Must be 'raw' or 'processed'."
+            "Invalid folder name. Must be 'raw', 'processed' or 'screened'."
         )
 
     folder_path = CACHE_DIR / f"{folder}"

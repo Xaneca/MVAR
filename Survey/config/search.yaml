@@ -1,30 +1,48 @@
 search:
-  queries:
 
-  - "adversarial robustness framework image"
+  groups:
 
-  - "adversarial attack toolkit"
+    attack:
+      - "adversarial attack"
+      - "adversarial example"
+      - "adversarial perturbation"
+      - "black-box attack"
+      - "white-box attack"
 
-  - "robustness benchmark image classification"
 
-  - "adversarial robustness evaluation framework"
+    robustness:
+      - "robustness"
+      - "robust"
+      - "evaluation"
 
-  - "image adversarial attack library"
 
-  - "computer vision adversarial robustness toolkit"
+    application:
+      - "image"
+      - "computer vision"
+      - "image classification"
+      - "framework"
+      - "toolkit"
+      - "benchmark"
+
+
+  templates:
+
+    - "{attack} {application}"
+
+    - "{attack} {robustness}"
+
+    - "{attack} {robustness} {application}"
+
 
   filtering:
 
-  metadata:
-
-    min_year: 2020
-
-    require_abstract: true
+    metadata:
+      min_year: 2016
+      require_abstract: true
 
     publication_types:
       - article
       - conference-paper
-
 
   keywords:
 
@@ -41,19 +59,36 @@ search:
       - evaluation
 
 
+  # relevance:
+
+  #   weights:
+  #     # adversarial: 3
+  #     # robustness: 3
+  #     # image: 2
+
+  #     framework: 3
+  #     toolkit: 3
+  #     benchmark: 2
+  #     library: 3
+  #     evaluation: 2
+
+  #   minimum_score: 6
+
   relevance:
 
     weights:
 
-      adversarial: 3
-      robustness: 3
-      image: 2
-
       framework: 3
       toolkit: 3
-      benchmark: 2
       library: 3
+      platform: 3
+      benchmark: 3
+
       evaluation: 2
+      assessment: 2
+      comparison: 2
+      repository: 2
+      implementation: 2
+      software: 2
 
-
-    minimum_score: 6
+    minimum_score: 5

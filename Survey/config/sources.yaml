@@ -10,7 +10,10 @@ sources:
     enabled: true
 
   ieee:
-    enabled: false
+    enabled: true
 
   acm:
     enabled: false
+  
+  scopus:
+    enabled: true

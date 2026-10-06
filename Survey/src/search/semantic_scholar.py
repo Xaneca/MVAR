@@ -48,7 +48,7 @@ class SemanticScholarSearcher(BaseSearcher):
 
         params = {
             "query": query,
-            "limit": 10,
+            "limit": 20,
             "fields": (
                 "title,"
                 "authors,"

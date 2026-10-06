@@ -30,6 +30,6 @@ def build_queries(groups, templates):
 
             queries.append(query)
 
-    # queries = queries[:]
+    # queries = queries[:2]
 
     return queries

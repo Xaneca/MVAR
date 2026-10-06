@@ -1,0 +1,1871 @@
+[
+    {
+        "id": "https://openalex.org/W2974581576",
+        "title": "Adversarial Attacks and Defenses in Images, Graphs and Text: A Review",
+        "authors": [
+            "Han Xu",
+            "Yao Ma",
+            "Haochen Liu",
+            "Debayan Deb",
+            "Hui Liu",
+            "Jiliang Tang",
+            "Anil Kumar Jain"
+        ],
+        "abstract": "Abstract Deep neural networks (DNN) have achieved unprecedented success in numerous machine learning tasks in various domains. However, the existence of adversarial examples raises our concerns in adopting deep learning to safety-critical applications. As a result, we have witnessed increasing interests in studying attack and defense mechanisms for DNN models on different data types, such as images, graphs and text. Thus, it is necessary to provide a systematic and comprehensive overview of the main threats of attacks and the success of corresponding countermeasures. In this survey, we review the state of the art algorithms for generating adversarial examples and the countermeasures against adversarial examples, for three most popular data types, including images, graphs and text.",
+        "year": 2020,
+        "doi": "https://doi.org/10.1007/s11633-019-1211-x",
+        "venue": "Machine Intelligence Research",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Deep neural networks",
+            "Deep learning",
+            "Artificial intelligence",
+            "Machine learning",
+            "Artificial neural network",
+            "Data science",
+            "Computer security",
+            "Theoretical computer science"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Deep neural networks",
+            "Deep learning",
+            "Artificial intelligence",
+            "Machine learning",
+            "Artificial neural network",
+            "Data science",
+            "Computer security",
+            "Theoretical computer science"
+        ],
+        "publication_type": "article",
+        "citations": 704,
+        "url": "https://openalex.org/W2974581576",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2460937040",
+        "title": "Adversarial Examples in the Physical World",
+        "authors": [
+            "Alexey Kurakin",
+            "Ian Goodfellow",
+            "Samy Bengio"
+        ],
+        "abstract": "Most existing machine learning classifiers are highly vulnerable to adversarial examples. An adversarial example is a sample of input data which has been modified very slightly in a way that is intended to cause a machine learning classifier to misclassify it. In many cases, these modifications can be so subtle that a human observer does not even notice the modification at all, yet the classifier still makes a mistake. Adversarial examples pose security concerns because they could be used to perform an attack on machine learning systems, even if the adversary has no access to the underlying model. Up to now, all previous work has assumed a threat model in which the adversary can feed data directly into the machine learning classifier. This is not always the case for systems operating in the physical world, for example those which are using signals from cameras and other sensors as input. This paper shows that even in such physical world scenarios, machine learning systems are vulnerable to adversarial examples. We demonstrate this by feeding adversarial images obtained from a cell-phone camera to an ImageNet Inception classifier and measuring the classification accuracy of the system. We find that a large fraction of adversarial examples are classified incorrectly even when perceived through the camera.",
+        "year": 2018,
+        "doi": "https://doi.org/10.1201/9781351251389-8",
+        "venue": null,
+        "keywords": [
+            "Adversarial system",
+            "Classifier (UML)",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversary",
+            "Machine learning",
+            "Mistake",
+            "Adversarial machine learning",
+            "Notice",
+            "Phone",
+            "Computer security",
+            "Law"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Classifier (UML)",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversary",
+            "Machine learning",
+            "Mistake",
+            "Adversarial machine learning",
+            "Notice",
+            "Phone",
+            "Computer security",
+            "Law",
+            "Philosophy",
+            "Linguistics",
+            "Political science"
+        ],
+        "publication_type": "book-chapter",
+        "citations": 4710,
+        "url": "https://openalex.org/W2460937040",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W3021182036",
+        "title": "Understanding adversarial attacks on deep learning based medical image analysis systems",
+        "authors": [
+            "Xingjun Ma",
+            "Yuhao Niu",
+            "Lin Gu",
+            "Yisen Wang",
+            "Yitian Zhao",
+            "James A Bailey",
+            "Feng Gui Lu"
+        ],
+        "abstract": null,
+        "year": 2020,
+        "doi": "https://doi.org/10.1016/j.patcog.2020.107332",
+        "venue": "Pattern Recognition",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Viewpoints",
+            "Context (archaeology)",
+            "Software deployment",
+            "Deep neural networks",
+            "Machine learning",
+            "Image (mathematics)",
+            "Medical imaging",
+            "Computer security"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Viewpoints",
+            "Context (archaeology)",
+            "Software deployment",
+            "Deep neural networks",
+            "Machine learning",
+            "Image (mathematics)",
+            "Medical imaging",
+            "Computer security",
+            "Visual arts",
+            "Art",
+            "Paleontology",
+            "Operating system",
+            "Biology"
+        ],
+        "publication_type": "article",
+        "citations": 549,
+        "url": "https://openalex.org/W3021182036",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2962700793",
+        "title": "Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey",
+        "authors": [
+            "Naveed Hassan Akhtar",
+            "Ajmal Saeed Mian"
+        ],
+        "abstract": "Deep learning is at the heart of the current rise of artificial intelligence. In the field of computer vision, it has become the workhorse for applications ranging from self-driving cars to surveillance and security. Whereas, deep neural networks have demonstrated phenomenal success (often beyond human capabilities) in solving complex problems, recent studies show that they are vulnerable to adversarial attacks in the form of subtle perturbations to inputs that lead a model to predict incorrect outputs. For images, such perturbations are often too small to be perceptible, yet they completely fool the deep learning models. Adversarial attacks pose a serious threat to the success of deep learning in practice. This fact has recently led to a large influx of contributions in this direction. This paper presents the first comprehensive survey on adversarial attacks on deep learning in computer vision. We review the works that design adversarial attacks, analyze the existence of such attacks and propose defenses against them. To emphasize that adversarial attacks are possible in practical conditions, we separately review the contributions that evaluate adversarial attacks in the real-world scenarios. Finally, drawing on the reviewed literature, we provide a broader outlook of this research direction.",
+        "year": 2018,
+        "doi": "https://doi.org/10.1109/access.2018.2807385",
+        "venue": "IEEE Access",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Computer security",
+            "Computer vision"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Computer security",
+            "Computer vision"
+        ],
+        "publication_type": "article",
+        "citations": 2091,
+        "url": "https://openalex.org/W2962700793",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2954996726",
+        "title": "A survey on Image Data Augmentation for Deep Learning",
+        "authors": [
+            "Connor Shorten",
+            "Taghi M. Khoshgoftaar"
+        ],
+        "abstract": "Deep convolutional neural networks have performed remarkably well on many Computer Vision tasks. However, these networks are heavily reliant on big data to avoid overfitting. Overfitting refers to the phenomenon when a network learns a function with very high variance such as to perfectly model the training data. Unfortunately, many application domains do not have access to big data, such as medical image analysis. This survey focuses on Data Augmentation, a data-space solution to the problem of limited data. Data Augmentation encompasses a suite of techniques that enhance the size and quality of training datasets such that better Deep Learning models can be built using them. The image augmentation algorithms discussed in this survey include geometric transformations, color space augmentations, kernel filters, mixing images, random erasing, feature space augmentation, adversarial training, generative adversarial networks, neural style transfer, and meta-learning. The application of augmentation methods based on GANs are heavily covered in this survey. In addition to augmentation techniques, this paper will briefly discuss other characteristics of Data Augmentation such as test-time augmentation, resolution impact, final dataset size, and curriculum learning. This survey will present existing methods for Data Augmentation, promising developments, and meta-level decisions for implementing Data Augmentation. Readers will understand how Data Augmentation can improve the performance of their models and expand limited datasets to take advantage of the capabilities of big data.",
+        "year": 2019,
+        "doi": "https://doi.org/10.1186/s40537-019-0197-0",
+        "venue": "Journal Of Big Data",
+        "keywords": [
+            "Computer science",
+            "Overfitting",
+            "Deep learning",
+            "Artificial intelligence",
+            "Machine learning",
+            "Big data",
+            "Artificial neural network",
+            "Transfer of learning",
+            "Convolutional neural network",
+            "Benchmark (surveying)",
+            "Data science",
+            "Data mining"
+        ],
+        "concepts": [
+            "Computer science",
+            "Overfitting",
+            "Deep learning",
+            "Artificial intelligence",
+            "Machine learning",
+            "Big data",
+            "Artificial neural network",
+            "Transfer of learning",
+            "Convolutional neural network",
+            "Benchmark (surveying)",
+            "Data science",
+            "Data mining",
+            "Geography",
+            "Geodesy"
+        ],
+        "publication_type": "article",
+        "citations": 13212,
+        "url": "https://openalex.org/W2954996726",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2965198951",
+        "title": "Transferable Adversarial Attacks for Image and Video Object Detection",
+        "authors": [
+            "Xingxing Wei",
+            "Siyuan Liang",
+            "Ning Chen",
+            "Xiaochun Cao"
+        ],
+        "abstract": "Identifying adversarial examples is beneficial for understanding deep networks and developing robust models. However, existing attacking methods for image object detection have two limitations: weak transferability---the generated adversarial examples often have a low success rate to attack other kinds of detection methods, and high computation cost---they need much time to deal with video data, where many frames need polluting. To address these issues, we present a generative method to obtain adversarial images and videos, thereby significantly reducing the processing time. To enhance transferability, we manipulate the feature maps extracted by a feature network, which usually constitutes the basis of object detectors. Our method is based on the Generative Adversarial Network (GAN) framework, where we combine a high-level class loss and a low-level feature loss to jointly train the adversarial example generator. Experimental results on PASCAL VOC and ImageNet VID datasets show that our method efficiently generates image and video adversarial examples, and more importantly, these adversarial examples have better transferability, therefore being able to simultaneously attack two kinds of representative object detection models: proposal based models like Faster-RCNN and regression based models like SSD.",
+        "year": 2019,
+        "doi": "https://doi.org/10.24963/ijcai.2019/134",
+        "venue": null,
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Transferability",
+            "Object detection",
+            "Artificial intelligence",
+            "Pascal (unit)",
+            "Feature (linguistics)",
+            "Feature extraction",
+            "Machine learning",
+            "Object (grammar)",
+            "Image (mathematics)",
+            "Deep learning",
+            "Pattern recognition (psychology)",
+            "Generative grammar",
+            "Data mining"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Transferability",
+            "Object detection",
+            "Artificial intelligence",
+            "Pascal (unit)",
+            "Feature (linguistics)",
+            "Feature extraction",
+            "Machine learning",
+            "Object (grammar)",
+            "Image (mathematics)",
+            "Deep learning",
+            "Pattern recognition (psychology)",
+            "Generative grammar",
+            "Data mining",
+            "Logit",
+            "Programming language",
+            "Linguistics",
+            "Philosophy"
+        ],
+        "publication_type": "conference-paper",
+        "citations": 205,
+        "url": "https://openalex.org/W2965198951",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2974383094",
+        "title": "Image Super-Resolution as a Defense Against Adversarial Attacks",
+        "authors": [
+            "Aamir Mustafa",
+            "Salman H. Khan",
+            "Munawar Hayat",
+            "Jianbing Shen",
+            "Ling Shao"
+        ],
+        "abstract": "Convolutional Neural Networks have achieved significant success across multiple computer vision tasks. However, they are vulnerable to carefully crafted, human-imperceptible adversarial noise patterns which constrain their deployment in critical security-sensitive systems. This paper proposes a computationally efficient image enhancement approach that provides a strong defense mechanism to effectively mitigate the effect of such adversarial perturbations. We show that deep image restoration networks learn mapping functions that can bring off-the-manifold adversarial samples onto the natural image manifold, thus restoring classification towards correct classes. A distinguishing feature of our approach is that, in addition to providing robustness against attacks, it simultaneously enhances image quality and retains models performance on clean images. Furthermore, the proposed method does not modify the classifier or requires a separate mechanism to detect adversarial images. The effectiveness of the scheme has been demonstrated through extensive experiments, where it has proven a strong defense in gray-box settings. The proposed scheme is simple and has the following advantages: (1) it does not require any model training or parameter optimization, (2) it complements other existing defense mechanisms, (3) it is agnostic to the attacked model and attack type and (4) it provides superior performance across all popular attack algorithms. Our codes are publicly available at https://github.com/aamir-mustafa/super-resolution-adversarial-defense.",
+        "year": 2019,
+        "doi": "https://doi.org/10.1109/tip.2019.2940533",
+        "venue": "IEEE Transactions on Image Processing",
+        "keywords": [
+            "Adversarial system",
+            "Robustness (evolution)",
+            "Convolutional neural network",
+            "Classifier (UML)",
+            "Software deployment",
+            "Image (mathematics)",
+            "Artificial neural network",
+            "Image restoration",
+            "Scheme (mathematics)"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Robustness (evolution)",
+            "Artificial intelligence",
+            "Convolutional neural network",
+            "Classifier (UML)",
+            "Software deployment",
+            "Image (mathematics)",
+            "Artificial neural network",
+            "Image restoration",
+            "Scheme (mathematics)",
+            "Contextual image classification",
+            "Pattern recognition (psychology)",
+            "Machine learning",
+            "Deep neural networks",
+            "Feature extraction",
+            "Image processing",
+            "Image quality",
+            "Deep learning",
+            "Computer vision",
+            "Key (lock)",
+            "Noise (video)",
+            "Threat model",
+            "Task analysis",
+            "Data mining",
+            "Object detection",
+            "Feature vector",
+            "Feature (linguistics)",
+            "Computer security",
+            "Adversarial machine learning",
+            "Norm (philosophy)",
+            "Attack model"
+        ],
+        "publication_type": "article",
+        "citations": 174,
+        "url": "https://openalex.org/W2974383094",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2570685808",
+        "title": "Delving into Transferable Adversarial Examples and Black-box Attacks",
+        "authors": [
+            "Yanpei Liu",
+            "Xinyun Chen",
+            "Chang Liu",
+            "Dawn Xiaodong Song"
+        ],
+        "abstract": "An intriguing property of deep neural networks is the existence of adversarial examples, which can transfer among different architectures. These transferable adversarial examples may severely hinder deep neural network-based applications. Previous works mostly study the transferability using small scale datasets. In this work, we are the first to conduct an extensive study of the transferability over large models and a large scale dataset, and we are also the first to study the transferability of targeted adversarial examples with their target labels. We study both non-targeted and targeted adversarial examples, and show that while transferable non-targeted adversarial examples are easy to find, targeted adversarial examples generated using existing approaches almost never transfer with their target labels. Therefore, we propose novel ensemble-based approaches to generating transferable adversarial examples. Using such approaches, we observe a large proportion of targeted adversarial examples that are able to transfer with their target labels for the first time. We also present some geometric studies to help understanding the transferable adversarial examples. Finally, we show that the adversarial examples generated using ensemble-based approaches can successfully attack Clarifai.com, which is a black-box image classification system.",
+        "year": 2016,
+        "doi": "https://doi.org/10.48550/arxiv.1611.02770",
+        "venue": "arXiv (Cornell University)",
+        "keywords": [
+            "Adversarial system",
+            "Black box",
+            "Computer security",
+            "Computer science",
+            "Political science",
+            "Artificial intelligence"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Black box",
+            "Computer security",
+            "Computer science",
+            "Political science",
+            "Artificial intelligence"
+        ],
+        "publication_type": "preprint",
+        "citations": 1247,
+        "url": "https://openalex.org/W2570685808",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2963068442",
+        "title": "Adversarial Attacks Beyond the Image Space",
+        "authors": [
+            "Xiaohui Zeng",
+            "Chenxi Liu",
+            "Yu-Siang Wang",
+            "Weichao Qiu",
+            "Lingxi Xie",
+            "Yu‐Wing Tai",
+            "Chi–Keung Tang",
+            "Alan Yuille"
+        ],
+        "abstract": "Generating adversarial examples is an intriguing problem and an important way of understanding the working mechanism of deep neural networks. Most existing approaches generated perturbations in the image space, i.e., each pixel can be modified independently. However, in this paper we pay special attention to the subset of adversarial examples that correspond to meaningful changes in 3D physical properties (like rotation and translation, illumination condition, etc.). These adversaries arguably pose a more serious concern, as they demonstrate the possibility of causing neural network failure by easy perturbations of real-world 3D objects and scenes. In the contexts of object classification and visual question answering, we augment state-of-the-art deep neural networks that receive 2D input images with a rendering module (either differentiable or not) in front, so that a 3D scene (in the physical space) is rendered into a 2D image (in the image space), and then mapped to a prediction (in the output space). The adversarial perturbations can now go beyond the image space, and have clear meanings in the 3D physical world. Though image-space adversaries can be interpreted as per-pixel albedo change, we verify that they cannot be well explained along these physically meaningful dimensions, which often have a non-local effect. But it is still possible to successfully attack beyond the image space on the physical space, though this is more difficult than image-space attacks, reflected in lower success rates and heavier perturbations required.",
+        "year": 2019,
+        "doi": "https://doi.org/10.1109/cvpr.2019.00443",
+        "venue": null,
+        "keywords": [
+            "Rendering (computer graphics)",
+            "Computer science",
+            "Artificial intelligence",
+            "Differentiable function",
+            "Adversarial system",
+            "Pixel",
+            "Computer vision",
+            "Space (punctuation)",
+            "Artificial neural network",
+            "Image (mathematics)",
+            "Image translation",
+            "Translation (biology)",
+            "Mathematics"
+        ],
+        "concepts": [
+            "Rendering (computer graphics)",
+            "Computer science",
+            "Artificial intelligence",
+            "Differentiable function",
+            "Adversarial system",
+            "Pixel",
+            "Computer vision",
+            "Space (punctuation)",
+            "Artificial neural network",
+            "Image (mathematics)",
+            "Image translation",
+            "Translation (biology)",
+            "Mathematics",
+            "Gene",
+            "Chemistry",
+            "Biochemistry",
+            "Mathematical analysis",
+            "Messenger RNA",
+            "Operating system"
+        ],
+        "publication_type": "conference-paper",
+        "citations": 142,
+        "url": "https://openalex.org/W2963068442",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2051267297",
+        "title": "Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures",
+        "authors": [
+            "Matt Fredrikson",
+            "Somesh Jha",
+            "Thomas Ristenpart"
+        ],
+        "abstract": "Machine-learning (ML) algorithms are increasingly utilized in privacy-sensitive applications such as predicting lifestyle choices, making medical diagnoses, and facial recognition. In a model inversion attack, recently introduced in a case study of linear classifiers in personalized medicine by Fredrikson et al., adversarial access to an ML model is abused to learn sensitive genomic information about individuals. Whether model inversion attacks apply to settings outside theirs, however, is unknown. We develop a new class of model inversion attack that exploits confidence values revealed along with predictions. Our new attacks are applicable in a variety of settings, and we explore two in depth: decision trees for lifestyle surveys as used on machine-learning-as-a-service systems and neural networks for facial recognition. In both cases confidence values are revealed to those with the ability to make prediction queries to models. We experimentally show attacks that are able to estimate whether a respondent in a lifestyle survey admitted to cheating on their significant other and, in the other context, show how to recover recognizable images of people's faces given only their name and access to the ML model. We also initiate experimental exploration of natural countermeasures, investigating a privacy-aware decision tree training algorithm that is a simple variant of CART learning, as well as revealing only rounded confidence values. The lesson that emerges is that one can avoid these kinds of MI attacks with negligible degradation to utility.",
+        "year": 2015,
+        "doi": "https://doi.org/10.1145/2810103.2813677",
+        "venue": null,
+        "keywords": [
+            "Exploit",
+            "Computer science",
+            "Machine learning",
+            "Artificial intelligence",
+            "Decision tree",
+            "Medical diagnosis",
+            "Computer security"
+        ],
+        "concepts": [
+            "Exploit",
+            "Computer science",
+            "Machine learning",
+            "Artificial intelligence",
+            "Decision tree",
+            "Medical diagnosis",
+            "Computer security",
+            "Medicine",
+            "Pathology"
+        ],
+        "publication_type": "conference-paper",
+        "citations": 2900,
+        "url": "https://openalex.org/W2051267297",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2962700793",
+        "title": "Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey",
+        "authors": [
+            "Naveed Hassan Akhtar",
+            "Ajmal Saeed Mian"
+        ],
+        "abstract": "Deep learning is at the heart of the current rise of artificial intelligence. In the field of computer vision, it has become the workhorse for applications ranging from self-driving cars to surveillance and security. Whereas, deep neural networks have demonstrated phenomenal success (often beyond human capabilities) in solving complex problems, recent studies show that they are vulnerable to adversarial attacks in the form of subtle perturbations to inputs that lead a model to predict incorrect outputs. For images, such perturbations are often too small to be perceptible, yet they completely fool the deep learning models. Adversarial attacks pose a serious threat to the success of deep learning in practice. This fact has recently led to a large influx of contributions in this direction. This paper presents the first comprehensive survey on adversarial attacks on deep learning in computer vision. We review the works that design adversarial attacks, analyze the existence of such attacks and propose defenses against them. To emphasize that adversarial attacks are possible in practical conditions, we separately review the contributions that evaluate adversarial attacks in the real-world scenarios. Finally, drawing on the reviewed literature, we provide a broader outlook of this research direction.",
+        "year": 2018,
+        "doi": "https://doi.org/10.1109/access.2018.2807385",
+        "venue": "IEEE Access",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Computer security",
+            "Computer vision"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Computer security",
+            "Computer vision"
+        ],
+        "publication_type": "article",
+        "citations": 2091,
+        "url": "https://openalex.org/W2962700793",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W3197154997",
+        "title": "Advances in Adversarial Attacks and Defenses in Computer Vision: A Survey",
+        "authors": [
+            "Naveed Hassan Akhtar",
+            "Ajmal Saeed Mian",
+            "Navid Kardan",
+            "Mubarak Shah"
+        ],
+        "abstract": "Deep Learning is the most widely used tool in the contemporary field of computer vision. Its ability to accurately solve complex problems is employed in vision research to learn deep neural models for a variety of tasks, including security critical applications. However, it is now known that deep learning is vulnerable to adversarial attacks that can manipulate its predictions by introducing visually imperceptible perturbations in images and videos. Since the discovery of this phenomenon in 2013, it has attracted significant attention of researchers from multiple sub-fields of machine intelligence. In 2018, we published the first-ever review of the contributions made by the computer vision community in adversarial attacks on deep learning (and their defenses). Many of those contributions have inspired new directions in this area, which has matured significantly since witnessing the first generation methods. Hence, as a legacy sequel of our first literature survey, this review article focuses on the advances in this area since 2018. We thoroughly discuss the first generation attacks and comprehensively cover the modern attacks and their defenses appearing in the prestigious sources of computer vision and machine learning research. Besides offering the most comprehensive literature review of adversarial attacks and defenses to date, the article also provides concise definitions of technical terminologies for the non-experts. Finally, it discusses challenges and future outlook of this direction based on the literature since the advent of this research direction.",
+        "year": 2021,
+        "doi": "https://doi.org/10.1109/access.2021.3127960",
+        "venue": "IEEE Access",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Field (mathematics)",
+            "Variety (cybernetics)",
+            "Deep learning",
+            "Artificial intelligence",
+            "Domain (mathematical analysis)",
+            "Data science",
+            "Deep neural networks",
+            "Phenomenon",
+            "Cognitive science",
+            "Human–computer interaction",
+            "Psychology",
+            "Epistemology"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Field (mathematics)",
+            "Variety (cybernetics)",
+            "Deep learning",
+            "Artificial intelligence",
+            "Domain (mathematical analysis)",
+            "Data science",
+            "Deep neural networks",
+            "Phenomenon",
+            "Cognitive science",
+            "Human–computer interaction",
+            "Psychology",
+            "Epistemology",
+            "Mathematics",
+            "Pure mathematics",
+            "Mathematical analysis",
+            "Philosophy"
+        ],
+        "publication_type": "article",
+        "citations": 305,
+        "url": "https://openalex.org/W3197154997",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2782217514",
+        "title": "Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey",
+        "authors": [
+            "Naveed Hassan Akhtar",
+            "Ajmal Saeed Mian"
+        ],
+        "abstract": "Deep learning is at the heart of the current rise of machine learning and artificial intelligence. In the field of Computer Vision, it has become the workhorse for applications ranging from self-driving cars to surveillance and security. Whereas deep neural networks have demonstrated phenomenal success (often beyond human capabilities) in solving complex problems, recent studies show that they are vulnerable to adversarial attacks in the form of subtle perturbations to inputs that lead a model to predict incorrect outputs. For images, such perturbations are often too small to be perceptible, yet they completely fool the deep learning models. Adversarial attacks pose a serious threat to the success of deep learning in practice. This fact has lead to a large influx of contributions in this direction. This article presents the first comprehensive survey on adversarial attacks on deep learning in Computer Vision. We review the works that design adversarial attacks, analyze the existence of such attacks and propose defenses against them. To emphasize that adversarial attacks are possible in practical conditions, we separately review the contributions that evaluate adversarial attacks in the real-world scenarios. Finally, we draw on the literature to provide a broader outlook of the research direction.",
+        "year": 2018,
+        "doi": "https://doi.org/10.48550/arxiv.1801.00553",
+        "venue": "arXiv (Cornell University)",
+        "keywords": [
+            "Adversarial system",
+            "Deep learning",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversarial machine learning",
+            "Deep neural networks",
+            "Field (mathematics)",
+            "Artificial neural network",
+            "Machine learning",
+            "Computer security",
+            "Data science"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Deep learning",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversarial machine learning",
+            "Deep neural networks",
+            "Field (mathematics)",
+            "Artificial neural network",
+            "Machine learning",
+            "Computer security",
+            "Data science",
+            "Mathematics",
+            "Pure mathematics"
+        ],
+        "publication_type": "preprint",
+        "citations": 167,
+        "url": "https://openalex.org/W2782217514",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2460937040",
+        "title": "Adversarial Examples in the Physical World",
+        "authors": [
+            "Alexey Kurakin",
+            "Ian Goodfellow",
+            "Samy Bengio"
+        ],
+        "abstract": "Most existing machine learning classifiers are highly vulnerable to adversarial examples. An adversarial example is a sample of input data which has been modified very slightly in a way that is intended to cause a machine learning classifier to misclassify it. In many cases, these modifications can be so subtle that a human observer does not even notice the modification at all, yet the classifier still makes a mistake. Adversarial examples pose security concerns because they could be used to perform an attack on machine learning systems, even if the adversary has no access to the underlying model. Up to now, all previous work has assumed a threat model in which the adversary can feed data directly into the machine learning classifier. This is not always the case for systems operating in the physical world, for example those which are using signals from cameras and other sensors as input. This paper shows that even in such physical world scenarios, machine learning systems are vulnerable to adversarial examples. We demonstrate this by feeding adversarial images obtained from a cell-phone camera to an ImageNet Inception classifier and measuring the classification accuracy of the system. We find that a large fraction of adversarial examples are classified incorrectly even when perceived through the camera.",
+        "year": 2018,
+        "doi": "https://doi.org/10.1201/9781351251389-8",
+        "venue": null,
+        "keywords": [
+            "Adversarial system",
+            "Classifier (UML)",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversary",
+            "Machine learning",
+            "Mistake",
+            "Adversarial machine learning",
+            "Notice",
+            "Phone",
+            "Computer security",
+            "Law"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Classifier (UML)",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversary",
+            "Machine learning",
+            "Mistake",
+            "Adversarial machine learning",
+            "Notice",
+            "Phone",
+            "Computer security",
+            "Law",
+            "Philosophy",
+            "Linguistics",
+            "Political science"
+        ],
+        "publication_type": "book-chapter",
+        "citations": 4710,
+        "url": "https://openalex.org/W2460937040",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2773446523",
+        "title": "Wild patterns: Ten years after the rise of adversarial machine learning",
+        "authors": [
+            "Battista Biggio",
+            "Fabio Roli"
+        ],
+        "abstract": null,
+        "year": 2018,
+        "doi": "https://doi.org/10.1016/j.patcog.2018.07.023",
+        "venue": "Pattern Recognition",
+        "keywords": [
+            "Adversarial system",
+            "Machine learning",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversarial machine learning",
+            "Deep learning",
+            "Artificial neural network",
+            "Field (mathematics)",
+            "Facial recognition system",
+            "Malware",
+            "Computer security",
+            "Feature extraction"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Machine learning",
+            "Artificial intelligence",
+            "Computer science",
+            "Adversarial machine learning",
+            "Deep learning",
+            "Artificial neural network",
+            "Field (mathematics)",
+            "Facial recognition system",
+            "Malware",
+            "Computer security",
+            "Feature extraction",
+            "Pure mathematics",
+            "Mathematics"
+        ],
+        "publication_type": "article",
+        "citations": 1459,
+        "url": "https://openalex.org/W2773446523",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W4400772240",
+        "title": "Physical Adversarial Attack Meets Computer Vision: A Decade Survey",
+        "authors": [
+            "Hui Wei",
+            "Hao Tang",
+            "Xuemei Jia",
+            "Zhixiang Wang",
+            "Hanxun Yu",
+            "Zhubo Li",
+            "Shin’ichi Satoh",
+            "Luc Van Gool",
+            "Zheng Wang"
+        ],
+        "abstract": "Despite the impressive achievements of Deep Neural Networks (DNNs) in computer vision, their vulnerability to adversarial attacks remains a critical concern. Extensive research has demonstrated that incorporating sophisticated perturbations into input images can lead to a catastrophic degradation in DNNs' performance. This perplexing phenomenon not only exists in the digital space but also in the physical world. Consequently, it becomes imperative to evaluate the security of DNNs-based systems to ensure their safe deployment in real-world scenarios, particularly in security-sensitive applications. To facilitate a profound understanding of this topic, this paper presents a comprehensive overview of physical adversarial attacks. First, we distill four general steps for launching physical adversarial attacks. Building upon this foundation, we uncover the pervasive role of artifacts carrying adversarial perturbations in the physical world. These artifacts influence each step. To denote them, we introduce a new term: adversarial medium. Then, we take the first step to systematically evaluate the performance of physical adversarial attacks, taking the adversarial medium as a first attempt. Our proposed evaluation metric, hiPAA, comprises six perspectives: Effectiveness, Stealthiness, Robustness, Practicability, Aesthetics, and Economics. We also provide comparative results across task categories, together with insightful observations and suggestions for future research directions.",
+        "year": 2024,
+        "doi": "https://doi.org/10.1109/tpami.2024.3430860",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Artificial intelligence",
+            "Computer vision",
+            "Computer security"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Artificial intelligence",
+            "Computer vision",
+            "Computer security"
+        ],
+        "publication_type": "article",
+        "citations": 90,
+        "url": "https://openalex.org/W4400772240",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W4286567539",
+        "title": "A survey on adversarial attacks in computer vision: Taxonomy, visualization and future directions",
+        "authors": [
+            "Teng Long",
+            "Qi Gao",
+            "Lili Xu",
+            "Zhangbing Zhou"
+        ],
+        "abstract": null,
+        "year": 2022,
+        "doi": "https://doi.org/10.1016/j.cose.2022.102847",
+        "venue": "Computers & Security",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Visualization",
+            "Taxonomy (biology)",
+            "Data science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Field (mathematics)",
+            "Construct (python library)",
+            "Machine learning"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Visualization",
+            "Taxonomy (biology)",
+            "Data science",
+            "Deep learning",
+            "Artificial intelligence",
+            "Field (mathematics)",
+            "Construct (python library)",
+            "Machine learning",
+            "Pure mathematics",
+            "Mathematics",
+            "Botany",
+            "Programming language",
+            "Biology"
+        ],
+        "publication_type": "article",
+        "citations": 82,
+        "url": "https://openalex.org/W4286567539",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2640329709",
+        "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+        "authors": [
+            "Aleksander Mądry",
+            "Aleksandar Makelov",
+            "Ludwig Schmidt",
+            "Dimitris Tsipras",
+            "Adrian Vladu"
+        ],
+        "abstract": "Recent work has demonstrated that deep neural networks are vulnerable to adversarial examples---inputs that are almost indistinguishable from natural data and yet classified incorrectly by the network. In fact, some of the latest findings suggest that the existence of adversarial attacks may be an inherent weakness of deep learning models. To address this problem, we study the adversarial robustness of neural networks through the lens of robust optimization. This approach provides us with a broad and unifying view on much of the prior work on this topic. Its principled nature also enables us to identify methods for both training and attacking neural networks that are reliable and, in a certain sense, universal. In particular, they specify a concrete security guarantee that would protect against any adversary. These methods let us train networks with significantly improved resistance to a wide range of adversarial attacks. They also suggest the notion of security against a first-order adversary as a natural and broad security guarantee. We believe that robustness against such well-defined classes of adversaries is an important stepping stone towards fully resistant deep learning models. Code and pre-trained models are available at https://github.com/MadryLab/mnist_challenge and https://github.com/MadryLab/cifar10_challenge.",
+        "year": 2017,
+        "doi": "https://doi.org/10.48550/arxiv.1706.06083",
+        "venue": "arXiv (Cornell University)",
+        "keywords": [
+            "Adversarial system",
+            "Adversary",
+            "Computer science",
+            "Robustness (evolution)",
+            "Deep learning",
+            "Deep neural networks",
+            "Artificial intelligence",
+            "Artificial neural network",
+            "Through-the-lens metering",
+            "Machine learning",
+            "Threat model",
+            "Computer security",
+            "Engineering",
+            "Lens (geology)"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Adversary",
+            "Computer science",
+            "Robustness (evolution)",
+            "Deep learning",
+            "Deep neural networks",
+            "Artificial intelligence",
+            "Artificial neural network",
+            "Through-the-lens metering",
+            "Machine learning",
+            "Threat model",
+            "Computer security",
+            "Engineering",
+            "Lens (geology)",
+            "Chemistry",
+            "Biochemistry",
+            "Petroleum engineering",
+            "Gene"
+        ],
+        "publication_type": "preprint",
+        "citations": 1523,
+        "url": "https://openalex.org/W2640329709",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2963070423",
+        "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box\\n Machine Learning Models",
+        "authors": [
+            "Wieland Brendel",
+            "Jonas Rauber",
+            "Matthias Bethge"
+        ],
+        "abstract": "Many machine learning algorithms are vulnerable to almost imperceptible\\nperturbations of their inputs. So far it was unclear how much risk adversarial\\nperturbations carry for the safety of real-world machine learning applications\\nbecause most methods used to generate such perturbations rely either on\\ndetailed model information (gradient-based attacks) or on confidence scores\\nsuch as class probabilities (score-based attacks), neither of which are\\navailable in most real-world scenarios. In many such cases one currently needs\\nto retreat to transfer-based attacks which rely on cumbersome substitute\\nmodels, need access to the training data and can be defended against. Here we\\nemphasise the importance of attacks which solely rely on the final model\\ndecision. Such decision-based attacks are (1) applicable to real-world\\nblack-box models such as autonomous cars, (2) need less knowledge and are\\neasier to apply than transfer-based attacks and (3) are more robust to simple\\ndefences than gradient- or score-based attacks. Previous attacks in this\\ncategory were limited to simple models or simple datasets. Here we introduce\\nthe Boundary Attack, a decision-based attack that starts from a large\\nadversarial perturbation and then seeks to reduce the perturbation while\\nstaying adversarial. The attack is conceptually simple, requires close to no\\nhyperparameter tuning, does not rely on substitute models and is competitive\\nwith the best gradient-based attacks in standard computer vision tasks like\\nImageNet. We apply the attack on two black-box algorithms from Clarifai.com.\\nThe Boundary Attack in particular and the class of decision-based attacks in\\ngeneral open new avenues to study the robustness of machine learning models and\\nraise new questions regarding the safety of deployed machine learning systems.\\nAn implementation of the attack is available as part of Foolbox at\\nhttps://github.com/bethgelab/foolbox .\\n",
+        "year": 2017,
+        "doi": "https://doi.org/10.48550/arxiv.1712.04248",
+        "venue": "arXiv (Cornell University)",
+        "keywords": [
+            "Hyperparameter",
+            "Computer science",
+            "Adversarial system",
+            "Machine learning",
+            "Artificial intelligence",
+            "Black box",
+            "Decision boundary",
+            "Class (philosophy)",
+            "Adversarial machine learning",
+            "Simple (philosophy)",
+            "Attack model",
+            "Computer security",
+            "Support vector machine"
+        ],
+        "concepts": [
+            "Hyperparameter",
+            "Computer science",
+            "Adversarial system",
+            "Machine learning",
+            "Artificial intelligence",
+            "Black box",
+            "Decision boundary",
+            "Class (philosophy)",
+            "Adversarial machine learning",
+            "Simple (philosophy)",
+            "Attack model",
+            "Computer security",
+            "Support vector machine",
+            "Philosophy",
+            "Epistemology"
+        ],
+        "publication_type": "preprint",
+        "citations": 893,
+        "url": "https://openalex.org/W2963070423",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "https://openalex.org/W2919491917",
+        "title": "Review of Artificial Intelligence Adversarial Attack and Defense Technologies",
+        "authors": [
+            "Shilin Qiu",
+            "Qihe Liu",
+            "Shijie Zhou",
+            "Chunjiang Wu"
+        ],
+        "abstract": "In recent years, artificial intelligence technologies have been widely used in computer vision, natural language processing, automatic driving, and other fields. However, artificial intelligence systems are vulnerable to adversarial attacks, which limit the applications of artificial intelligence (AI) technologies in key security fields. Therefore, improving the robustness of AI systems against adversarial attacks has played an increasingly important role in the further development of AI. This paper aims to comprehensively summarize the latest research progress on adversarial attack and defense technologies in deep learning. According to the target model’s different stages where the adversarial attack occurred, this paper expounds the adversarial attack methods in the training stage and testing stage respectively. Then, we sort out the applications of adversarial attack technologies in computer vision, natural language processing, cyberspace security, and the physical world. Finally, we describe the existing adversarial defense methods respectively in three main categories, i.e., modifying data, modifying models and using auxiliary tools.",
+        "year": 2019,
+        "doi": "https://doi.org/10.3390/app9050909",
+        "venue": "Applied Sciences",
+        "keywords": [
+            "Adversarial system",
+            "Computer science",
+            "Artificial intelligence",
+            "Cyberspace",
+            "sort",
+            "Computer security",
+            "Adversarial machine learning",
+            "Key (lock)",
+            "The Internet",
+            "World Wide Web"
+        ],
+        "concepts": [
+            "Adversarial system",
+            "Computer science",
+            "Artificial intelligence",
+            "Cyberspace",
+            "sort",
+            "Computer security",
+            "Adversarial machine learning",
+            "Key (lock)",
+            "The Internet",
+            "World Wide Web",
+            "Information retrieval"
+        ],
+        "publication_type": "article",
+        "citations": 418,
+        "url": "https://openalex.org/W2919491917",
+        "sources": [
+            "OpenAlex"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.36227/techrxiv.18012122.v2",
+        "title": "Adversarial Attack using Neural Image Modification",
+        "authors": [
+            "Jandrik Lana"
+        ],
+        "abstract": "In order to help development into analyzing the characteristics of adversarial sample generation in artificial neural networks, this work proposes a framework for an adversarial attack that utilizes neural image modification to generate an adversarial sample. This method proves to be effective in reducing a target network's accuracy in both untargeted and targeted attacks with good success rates. This method also shows some effectiveness against defensive distillation, but not transferrable between multiple models.",
+        "year": 2022,
+        "doi": "10.36227/techrxiv.18012122.v2",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 0,
+        "url": "https://doi.org/10.36227/techrxiv.18012122.v2",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.36227/techrxiv.18012122",
+        "title": "Adversarial Attack using Neural Image Modification",
+        "authors": [
+            "Jandrik Lana"
+        ],
+        "abstract": "In order to help development into analyzing the characteristics of adversarial sample generation in artificial neural networks, this work proposes a framework for an adversarial attack that utilizes neural image modification to generate an adversarial sample. This method proves to be effective in reducing a target network’s accuracy in both untargeted and targeted attacks with good success rates. This method also shows some effectiveness against defensive distillation, but not transferrable between multiple models.",
+        "year": 2022,
+        "doi": "10.36227/techrxiv.18012122",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 0,
+        "url": "https://doi.org/10.36227/techrxiv.18012122",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.36227/techrxiv.18012122.v3",
+        "title": "Adversarial Attack using Neural Image Modification",
+        "authors": [
+            "Jandrik Lana"
+        ],
+        "abstract": "In order to help development into analyzing the characteristics of adversarial sample generation in artificial neural networks, this work proposes a framework for an adversarial attack that utilizes neural image modification to generate an adversarial sample. This method proves to be effective in reducing a target network's accuracy in both untargeted and targeted attacks with good success rates. This method also shows some effectiveness against defensive distillation, but not transferrable between multiple models.",
+        "year": 2022,
+        "doi": "10.36227/techrxiv.18012122.v3",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 0,
+        "url": "https://doi.org/10.36227/techrxiv.18012122.v3",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.36227/techrxiv.18012122.v1",
+        "title": "Adversarial Attack using Neural Image Modification",
+        "authors": [
+            "Jandrik Lana"
+        ],
+        "abstract": "In order to help development into analyzing the characteristics of adversarial sample generation in artificial neural networks, this work proposes a framework for an adversarial attack that utilizes neural image modification to generate an adversarial sample. This method proves to be effective in reducing a target network's accuracy in both untargeted and targeted attacks with good success rates. This method also shows some effectiveness against defensive distillation, but not transferrable between multiple models.",
+        "year": 2022,
+        "doi": "10.36227/techrxiv.18012122.v1",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 1,
+        "url": "https://doi.org/10.36227/techrxiv.18012122.v1",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/tcsvt.2023.3276442/mm1",
+        "title": "Towards Robust Neural Image Compression: Adversarial Attack and Model Finetuning_supp1-3276442.pdf",
+        "authors": [
+            "Zhan Ma"
+        ],
+        "abstract": null,
+        "year": null,
+        "doi": "10.1109/tcsvt.2023.3276442/mm1",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "component",
+        "citations": 0,
+        "url": "https://doi.org/10.1109/tcsvt.2023.3276442/mm1",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.2139/ssrn.5457015",
+        "title": "Balancing Image Quality and Attack Effectiveness in Multi-Objective Adversarial Image Generation",
+        "authors": [
+            "José Areia",
+            "Leonel Santos",
+            "Rogério Luís Costa"
+        ],
+        "abstract": null,
+        "year": 2025,
+        "doi": "10.2139/ssrn.5457015",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 0,
+        "url": "https://doi.org/10.2139/ssrn.5457015",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1016/j.cviu.2021.103257",
+        "title": "Pick-Object-Attack: Type-specific adversarial attack for object detection",
+        "authors": [
+            "Omid Mohamad Nezami",
+            "Akshay Chaturvedi",
+            "Mark Dras",
+            "Utpal Garain"
+        ],
+        "abstract": null,
+        "year": 2021,
+        "doi": "10.1016/j.cviu.2021.103257",
+        "venue": "Computer Vision and Image Understanding",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "journal-article",
+        "citations": 16,
+        "url": "https://doi.org/10.1016/j.cviu.2021.103257",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/tip.2022.3180207",
+        "title": "Sinkhorn Adversarial Attack and Defense",
+        "authors": [
+            "A. V. Subramanyam"
+        ],
+        "abstract": null,
+        "year": 2022,
+        "doi": "10.1109/tip.2022.3180207",
+        "venue": "IEEE Transactions on Image Processing",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "journal-article",
+        "citations": 7,
+        "url": "https://doi.org/10.1109/tip.2022.3180207",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1016/j.cviu.2021.103257",
+        "title": "Pick-Object-Attack: Type-specific adversarial attack for object detection",
+        "authors": [
+            "Omid Mohamad Nezami",
+            "Akshay Chaturvedi",
+            "Mark Dras",
+            "Utpal Garain"
+        ],
+        "abstract": null,
+        "year": 2021,
+        "doi": "10.1016/j.cviu.2021.103257",
+        "venue": "Computer Vision and Image Understanding",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "journal-article",
+        "citations": 16,
+        "url": "https://doi.org/10.1016/j.cviu.2021.103257",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.31219/osf.io/86wt3",
+        "title": "Overview of Adversarial Attack and Training in Computer Vision and Natural Language Processing",
+        "authors": [
+            "Judai Yuki"
+        ],
+        "abstract": "Pretrained language models (PLMs) has been widely used in various natural language processing (NLP) tasks, demonstrating outstanding performance across tasks and public benchmarks. However, despite the encouraging results in literature, applying pretrained language models to real world application stands as a great challenge due to various constrains. Especially, in natural language understanding (NLU) applications, such as voice assistant, it needs real-time response and has strict constrains on the accuracy, latency, cost and maintenance cycle. In this paper, we presents the challenges to utilize pretrained language models into large scale natural language understanding system and our strategies to customize the pretrained language models for production deployment given the practical constrains.",
+        "year": 2023,
+        "doi": "10.31219/osf.io/86wt3",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 0,
+        "url": "https://doi.org/10.31219/osf.io/86wt3",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.21203/rs.3.rs-2459893/v1",
+        "title": "A Survey on Physical Adversarial Attack in Computer Vision",
+        "authors": [
+            "Donghua Wang",
+            "Wen Yao",
+            "Tingsong Jiang",
+            "Guijian Tang",
+            "Xiaoqian Chen"
+        ],
+        "abstract": "Abstract In the past decade, deep learning has dramatically changed the traditional hand-craft feature manner with strong feature learning capability, promoting the tremendous improvement of conventional tasks. However, deep neural networks (DNNs) have been demonstrated to be vulnerable to adversarial examples crafted by small noise, which is imperceptible to human observers but can make DNNs misbehave. Existing adversarial attacks can be divided into digital and physical adversarial attacks. The former is designed to pursue strong attack performance in lab environments while hardly remaining effective when applied to the physical world. In contrast, the latter focus on developing physical deployable attacks, which are more robust in complex physical environmental conditions (e.g., brightness, occlusion, etc.). Recently, with the increasing deployment of the DNN-based system in the real world, enhancing the robustness of these systems is an emergency, while exploring physical adversarial attacks exhaustly is the precondition. To this end, this paper reviews the development of physical adversarial attacks against DNN-based computer vision tasks (i.e., image recognition and object detection tasks), which can provide beneficial information for developing stronger physical adversarial attacks. For completeness, we also briefly introduce the works that do not involve physical attacks but are closely related to them. Specifically, we first proposed a taxonomy to summarize the current physical adversarial attacks. Then we briefly discuss the existing physical attacks and focus on the technique for improving the robustness of physical attacks under complex physical environmental conditions. Finally, we discuss the issues of the current physical adversarial attacks to be solved and give promising directions.",
+        "year": 2023,
+        "doi": "10.21203/rs.3.rs-2459893/v1",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "posted-content",
+        "citations": 25,
+        "url": "https://doi.org/10.21203/rs.3.rs-2459893/v1",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/cvpr46437.2021.00664",
+        "title": "IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking",
+        "authors": [
+            "Shuai Jia",
+            "Yibing Song",
+            "Chao Ma",
+            "Xiaokang Yang"
+        ],
+        "abstract": null,
+        "year": 2021,
+        "doi": "10.1109/cvpr46437.2021.00664",
+        "venue": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 72,
+        "url": "https://doi.org/10.1109/cvpr46437.2021.00664",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/iccv51070.2023.00395",
+        "title": "SAGA: Spectral Adversarial Geometric Attack on 3D Meshes",
+        "authors": [
+            "Tomer Stolik",
+            "Itai Lang",
+            "Shai Avidan"
+        ],
+        "abstract": null,
+        "year": 2023,
+        "doi": "10.1109/iccv51070.2023.00395",
+        "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 6,
+        "url": "https://doi.org/10.1109/iccv51070.2023.00395",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/tip.2025.3526056/mm1",
+        "title": "Physically Realizable Adversarial Creating Attack against Vision-based BEV Space 3D Object Detection_supp1-3526056.mp4",
+        "authors": [
+            "Fan LI"
+        ],
+        "abstract": null,
+        "year": null,
+        "doi": "10.1109/tip.2025.3526056/mm1",
+        "venue": null,
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "component",
+        "citations": 0,
+        "url": "https://doi.org/10.1109/tip.2025.3526056/mm1",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/iccv51070.2023.00427",
+        "title": "Transferable Adversarial Attack for Both Vision Transformers and Convolutional Networks via Momentum Integrated Gradients",
+        "authors": [
+            "Wenshuo Ma",
+            "Yidong Li",
+            "Xiaofeng Jia",
+            "Wei Xu"
+        ],
+        "abstract": null,
+        "year": 2023,
+        "doi": "10.1109/iccv51070.2023.00427",
+        "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 39,
+        "url": "https://doi.org/10.1109/iccv51070.2023.00427",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/cvpr52733.2024.02335",
+        "title": "Attack To Defend: Exploiting Adversarial Attacks for Detecting Poisoned Models",
+        "authors": [
+            "Samar Fares",
+            "Karthik Nandakumar"
+        ],
+        "abstract": null,
+        "year": 2024,
+        "doi": "10.1109/cvpr52733.2024.02335",
+        "venue": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 5,
+        "url": "https://doi.org/10.1109/cvpr52733.2024.02335",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/wacv61041.2025.00738",
+        "title": "NAT: Learning to Attack Neurons for Enhanced Adversarial Transferability",
+        "authors": [
+            "Krishna Kanth Nakka",
+            "Alexandre Alahi"
+        ],
+        "abstract": null,
+        "year": 2025,
+        "doi": "10.1109/wacv61041.2025.00738",
+        "venue": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 0,
+        "url": "https://doi.org/10.1109/wacv61041.2025.00738",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": "10.1109/cvpr52734.2025.00475",
+        "title": "MOS-Attack: A Scalable Multi-Objective Adversarial Attack Framework",
+        "authors": [
+            "Ping Guo",
+            "Cheng Gong",
+            "Xi Lin",
+            "Fei Liu",
+            "Zhichao Lu",
+            "Qingfu Zhang",
+            "Zhenkun Wang"
+        ],
+        "abstract": null,
+        "year": 2025,
+        "doi": "10.1109/cvpr52734.2025.00475",
+        "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": "proceedings-article",
+        "citations": 3,
+        "url": "https://doi.org/10.1109/cvpr52734.2025.00475",
+        "sources": [
+            "Crossref"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "PB-UAP: Hybrid Universal Adversarial Attack For Image Segmentation",
+        "authors": [
+            "Yufei Song",
+            "Ziqi Zhou",
+            "Minghui Li",
+            "Xian-Long Wang",
+            "Menghao Deng",
+            "Wei Wan",
+            "Shengshan Hu",
+            "L. Zhang"
+        ],
+        "abstract": "With the rapid advancement of deep learning, the model robustness has become a significant research hotspot, \\ie, adversarial attacks on deep neural networks. Existing works primarily focus on image classification tasks, aiming to alter the model's predicted labels. Due to the output complexity and deeper network architectures, research on adversarial examples for segmentation models is still limited, particularly for universal adversarial perturbations. In this paper, we propose a novel universal adversarial attack method designed for segmentation models, which includes dual feature separation and low-frequency scattering modules. The two modules guide the training of adversarial examples in the pixel and frequency space, respectively. Experiments demonstrate that our method achieves high attack success rates surpassing the state-of-the-art methods, and exhibits strong transferability across different models.",
+        "year": 2024,
+        "doi": "10.48550/arXiv.2412.16651",
+        "venue": "arXiv.org",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 18,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Survey on Adversarial Attack and Defense for Medical Image Analysis: Methods and Challenges",
+        "authors": [
+            "Junhao Dong",
+            "Junxi Chen",
+            "Xiaohua Xie",
+            "Jianhuang Lai",
+            "H. Chen"
+        ],
+        "abstract": "Deep learning techniques have achieved superior performance in computer-aided medical image analysis, yet they are still vulnerable to imperceptible adversarial attacks, resulting in potential misdiagnosis in clinical practice. Oppositely, recent years have also witnessed remarkable progress in defense against these tailored adversarial examples in deep medical diagnosis systems. In this exposition, we present a comprehensive survey on recent advances in adversarial attacks and defenses for medical image analysis with a systematic taxonomy in terms of the application scenario. We also provide a unified framework for different types of adversarial attack and defense methods in the context of medical image analysis. For a fair comparison, we establish a new benchmark for adversarially robust medical diagnosis models obtained by adversarial training under various scenarios. To the best of our knowledge, this is the first survey article that provides a thorough evaluation of adversarially robust medical diagnosis models. By analyzing qualitative and quantitative results, we conclude this survey with a detailed discussion of current challenges for adversarial attack and defense in medical image analysis systems to shed light on future research directions. Code is available on GitHub.",
+        "year": 2023,
+        "doi": "10.1145/3702638",
+        "venue": "ACM Computing Surveys",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 83,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "A Comprehensive Review and Analysis of Deep Learning-Based Medical Image Adversarial Attack and Defense",
+        "authors": [
+            "G. W. Muoka",
+            "Ding Yi",
+            "C. Ukwuoma",
+            "Albert Mutale",
+            "C. Ejiyi",
+            "Asha Khamis Mzee",
+            "Emmanuel S. A. Gyarteng",
+            "A. Alqahtani",
+            "Mugahed A. Al-antari"
+        ],
+        "abstract": "Deep learning approaches have demonstrated great achievements in the field of computer-aided medical image analysis, improving the precision of diagnosis across a range of medical disorders. These developments have not, however, been immune to the appearance of adversarial attacks, creating the possibility of incorrect diagnosis with substantial clinical implications. Concurrently, the field has seen notable advancements in defending against such targeted adversary intrusions in deep medical diagnostic systems. In the context of medical image analysis, this article provides a comprehensive survey of current advancements in adversarial attacks and their accompanying defensive strategies. In addition, a comprehensive conceptual analysis is presented, including several adversarial attacks and defensive strategies designed for the interpretation of medical images. This survey, which draws on qualitative and quantitative findings, concludes with a thorough discussion of the problems with adversarial attack and defensive mechanisms that are unique to medical image analysis systems, opening up new directions for future research. We identified that the main problems with adversarial attack and defense in medical imaging include dataset and labeling, computational resources, robustness against target attacks, evaluation of transferability and adaptability, interpretability and explainability, real-time detection and response, and adversarial attacks in multi-modal fusion. The area of medical imaging adversarial attack and defensive mechanisms might move toward more secure, dependable, and therapeutically useful deep learning systems by filling in these research gaps and following these future objectives.",
+        "year": 2023,
+        "doi": "10.3390/math11204272",
+        "venue": "Mathematics",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 46,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Language Model Agnostic Gray-Box Adversarial Attack on Image Captioning",
+        "authors": [
+            "Nayyer Aafaq",
+            "Naveed Akhtar",
+            "Wei Liu",
+            "Mubarak Shah",
+            "Ajmal Saeed Mian"
+        ],
+        "abstract": "Adversarial susceptibility of neural image captioning is still under-explored due to the complex multi-model nature of the task. We introduce a GAN-based adversarial attack to effectively fool encoder-decoder based image captioning frameworks. Unique to our attack is the systematic disruption of the internal representation of an image at the encoder stage which allows control over the captions generated at the decoder stage. We cause the desired disruption with an input perturbation that promotes similarity between the features of the input image with a target image of our choice. The target image provides a convenient handle to control the incorrect captions in our method. We do not assume any knowledge of the decoder module, which makes our attack ‘gray-box’. Moreover, our attack remains agnostic to the type of decoder module, thereby proving effective for RNNs as well as Transformers as the language models. This makes our attack highly pragmatic.",
+        "year": 2023,
+        "doi": "10.1109/TIFS.2022.3226905",
+        "venue": "IEEE Transactions on Information Forensics and Security",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 34,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "I See Dead People: Gray-Box Adversarial Attack on Image-To-Text Models",
+        "authors": [
+            "R. Lapid",
+            "M. Sipper"
+        ],
+        "abstract": "Modern image-to-text systems typically adopt the encoder-decoder framework, which comprises two main components: an image encoder, responsible for extracting image features, and a transformer-based decoder, used for generating captions. Taking inspiration from the analysis of neural networks' robustness against adversarial perturbations, we propose a novel gray-box algorithm for creating adversarial examples in image-to-text models. Unlike image classification tasks that have a finite set of class labels, finding visually similar adversarial examples in an image-to-text task poses greater challenges because the captioning system allows for a virtually infinite space of possible captions. In this paper, we present a gray-box adversarial attack on image-to-text, both untargeted and targeted. We formulate the process of discovering adversarial perturbations as an optimization problem that uses only the image-encoder component, meaning the proposed attack is language-model agnostic. Through experiments conducted on the ViT-GPT2 model, which is the most-used image-to-text model in Hugging Face, and the Flickr30k dataset, we demonstrate that our proposed attack successfully generates visually similar adversarial examples, both with untargeted and targeted captions. Notably, our attack operates in a gray-box manner, requiring no knowledge about the decoder module. We also show that our attacks fool the popular open-source platform Hugging Face.",
+        "year": 2023,
+        "doi": "10.48550/arXiv.2306.07591",
+        "venue": "PKDD/ECML Workshops",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 26,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Universal Object-Level Adversarial Attack in Hyperspectral Image Classification",
+        "authors": [
+            "Cheng Shi",
+            "Mengxin Zhang",
+            "Z. Lv",
+            "Qiguang Miao",
+            "Chi-Man Pun"
+        ],
+        "abstract": "The vulnerability of deep neural networks (DNNs) has garnered significant attention. Various advanced adversarial attack methods have been proposed. However, these methods exhibit higher attack performance on three-band natural images while struggling to handle high-dimensional attacks in terms of attack transferability and robustness. Hyperspectral images (HSIs), unlike natural images, possess high-dimensional and redundant spectral information. On the one hand, different classification models focus on distinct discriminative spectral bands, leading to poor transferability. On the other hand, most existing attack methods are implemented at the pixel level, making them less resilient to image-processing-based defenses. In this article, we address the improvement of transferability and robustness in high-dimensional attacks and introduce a universal object-level adversarial attack method in HSI classification. We found that perturbations with higher similarity in a local region can decrease the sensitivity of adversarial attacks to various discriminative spectral patterns and enhance resistance to image-processing-based defenses. Consequently, we construct spatial and spectral oversegmented templates by utilizing the local smooth properties of HSIs, aiming to promote similarity among perturbations within a local region. Extensive experiments conducted on two real HSI datasets validate that our method enhances the attack transferability and robustness of several existing attack methods. By incorporating the object-level adversarial attack with the baseline fast gradient sign method (FGSM), momentum iterative FGSM (MI-FGSM), and variance tuning MI-FGSM (VMI-FGSM), the average transferability success rate of the proposed method has increased by 7.38% on the PaviaU dataset and 9.30% on the HoustonU 2018 dataset than the baselines. Meanwhile, the proposed method outperforms the baselines by an average of 6.19% on the PaviaU dataset and 10.05% on the HoustonU 2018 dataset in attacking image-processing-based defense models. The code is available at https://github.com/ AAAA-CS/SS_FGSM_HyperspectralAdversarialAttack.",
+        "year": 2023,
+        "doi": "10.1109/TGRS.2023.3336734",
+        "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 18,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Transferable Adversarial Attack on Image Tampering Localization",
+        "authors": [
+            "Gang Cao",
+            "Yuqi Wang",
+            "Haochen Zhu",
+            "Zijie Lou",
+            "Li-Fang Yu"
+        ],
+        "abstract": "It is significant to evaluate the security of existing digital image tampering localization algorithms in real-world applications. In this paper, we propose an adversarial attack scheme to reveal the reliability of such tampering localizers, which would be fooled and fail to predict altered regions correctly. Specifically, the adversarial examples based on optimization and gradient are implemented for white/black-box attacks. Correspondingly, the adversarial example is optimized via reverse gradient propagation, and the perturbation is added adaptively in the direction of gradient rising. The black-box attack is achieved by relying on the transferability of such adversarial examples to different localizers. Extensive evaluations verify that the proposed attack sharply reduces the localization accuracy while preserving high visual quality of the attacked images.",
+        "year": 2023,
+        "doi": "10.48550/arXiv.2309.10243",
+        "venue": "Journal of Visual Communication and Image Representation",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 19,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Physically Realizable Adversarial Creating Attack Against Vision-Based BEV Space 3D Object Detection",
+        "authors": [
+            "Jian Wang",
+            "Fan Li",
+            "Song Lv",
+            "Li-Jun He",
+            "Chao Shen"
+        ],
+        "abstract": "Vision-based 3D object detection, a cost-effective alternative to LiDAR-based solutions, plays a crucial role in modern autonomous driving systems. Meanwhile, deep models have been proven susceptible to adversarial examples, and attacking detection models can lead to serious driving consequences. Most previous adversarial attacks targeted 2D detectors by placing the patch in a specific region within the object’s bounding box in the image, allowing it to evade detection. However, attacking 3D detector is more difficult because the adversary may be observed from different viewpoints and distances, and there is a lack of effective methods to differentiably render the 3D space poster onto the image. In this paper, we propose a novel attack setting where a carefully crafted adversarial poster (looks like meaningless graffiti) is learned and pasted on the road surface, inducing the vision-based 3D detectors to perceive a non-existent object. We show that even a single 2D poster is sufficient to deceive the 3D detector with the desired attack effect, and the poster is universal, which is effective across various scenes, viewpoints, and distances. To generate the poster, an image-3D applying algorithm is devised to establish the pixel-wise mapping relationship between the image area and the 3D space poster so that the poster can be optimized through standard backpropagation. Moreover, a ground-truth masked optimization strategy is presented to effectively learn the poster without interference from scene objects. Extensive results including real-world experiments validate the effectiveness of our adversarial attack. The transferability and defense strategy are also investigated to comprehensively understand the proposed attack.",
+        "year": 2025,
+        "doi": "10.1109/TIP.2025.3526056",
+        "venue": "IEEE Transactions on Image Processing",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 56,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Jailbreaking Prompt Attack: A Controllable Adversarial Attack against Diffusion Models",
+        "authors": [
+            "Jiachen Ma",
+            "Yi-Jiang Li",
+            "Zhiqing Xiao",
+            "Anda Cao",
+            "Jie Zhang",
+            "Chaonan Ye",
+            "Jun-Bo Zhao"
+        ],
+        "abstract": "Text-to-image (T2I) models can be maliciously used to generate harmful content such as sexually explicit, unfaithful, and misleading or Not-Safe-for-Work (NSFW) images. Previous attacks largely depend on the availability of the diffusion model or involve a lengthy optimization process. In this work, we investigate a more practical and universal attack that does not require the presence of a target model and demonstrate that the high-dimensional text embedding space inherently contains NSFW concepts that can be exploited to generate harmful images. We present the Jailbreaking Prompt Attack (JPA). JPA first searches for the target malicious concepts in the text embedding space using a group of antonyms generated by ChatGPT. Subsequently, a prefix prompt is optimized in the discrete vocabulary space to align malicious concepts semantically in the text embedding space. We further introduce a soft assignment with gradient masking technique that allows us to perform gradient ascent in the discrete vocabulary space. We perform extensive experiments with open-sourced T2I models, e.g. stable-diffusion-v1-4 and closed-sourced online services, e.g. DALLE2, Midjourney with black-box safety checkers. Results show that (1) JPA bypasses both text and image safety checkers (2) while preserving high semantic alignment with the target prompt. (3) JPA demonstrates a much faster speed than previous methods and can be executed in a fully automated manner. These merits render it a valuable tool for robustness evaluation in future text-to-image generation research.",
+        "year": 2024,
+        "doi": "10.48550/arXiv.2404.02928",
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 90,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "A Smart Adversarial Attack on Deep Hashing Based Image Retrieval",
+        "authors": [
+            "Junda Lu",
+            "Mingyang Chen",
+            "Yifang Sun",
+            "Wei Wang",
+            "Yi Wang",
+            "Xiaochun Yang"
+        ],
+        "abstract": "Deep hashing based retrieval models have been widely used in large-scale image retrieval systems. Recently, there has been a surging interest in studying the adversarial attack problem in deep hashing based retrieval models. However, the effectiveness of existing adversarial attacks is limited by their poor perturbation management, unawareness of ranking weight, and only laser-focusing on the attack image. These shortages lead to high perturbation costs yet low AP reductions. To overcome these shortages, we propose a novel adversarial attack framework to improve the effectiveness of adversarial attacks. Our attack designs a dimension-wise surrogate Hamming distance function to help with wiser perturbation management. Further, in generating adversarial examples, instead of focusing on a single image, we propose to collectively incorporate relevant images combined with an AP-oriented (average precision) weight function. In addition, our attack can deal with both untargeted and targeted adversarial attacks in a flexible manner. Extensive experiments demonstrate that, with the same attack performance, our model significantly outperforms state-of-the-art models in perturbation cost on both untargeted and targeted attack tasks.",
+        "year": 2021,
+        "doi": "10.1145/3460426.3463640",
+        "venue": "International Conference on Multimedia Retrieval",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 25,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Physical Adversarial Attack Meets Computer Vision: A Decade Survey",
+        "authors": [
+            "Hui Wei",
+            "Hao Tang",
+            "Xuemei Jia",
+            "Zhi-Xiang Wang",
+            "Han-Bing Yu",
+            "Zhu Li",
+            "Shin'ichi Satoh",
+            "L. Van Gool",
+            "Zheng Wang"
+        ],
+        "abstract": "Despite the impressive achievements of Deep Neural Networks (DNNs) in computer vision, their vulnerability to adversarial attacks remains a critical concern. Extensive research has demonstrated that incorporating sophisticated perturbations into input images can lead to a catastrophic degradation in DNNs’ performance. This perplexing phenomenon not only exists in the digital space but also in the physical world. Consequently, it becomes imperative to evaluate the security of DNNs-based systems to ensure their safe deployment in real-world scenarios, particularly in security-sensitive applications. To facilitate a profound understanding of this topic, this paper presents a comprehensive overview of physical adversarial attacks. First, we distill four general steps for launching physical adversarial attacks. Building upon this foundation, we uncover the pervasive role of artifacts carrying adversarial perturbations in the physical world. These artifacts influence each step. To denote them, we introduce a new term: adversarial medium. Then, we take the first step to systematically evaluate the performance of physical adversarial attacks, taking the adversarial medium as a first attempt. Our proposed evaluation metric, hiPAA, comprises six perspectives: Effectiveness, Stealthiness, Robustness, Practicability, Aesthetics, and Economics. We also provide comparative results across task categories, together with insightful observations and suggestions for future research directions.",
+        "year": 2022,
+        "doi": "10.1109/TPAMI.2024.3430860",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 166,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "A Survey on Physical Adversarial Attack in Computer Vision",
+        "authors": [
+            "Donghua Wang",
+            "Wen Yao",
+            "Ting-Song Jiang",
+            "Gui-Jian Tang",
+            "Xiao-Qian Chen"
+        ],
+        "abstract": "Over the past decade, deep learning has revolutionized conventional tasks that rely on hand-craft feature extraction with its strong feature learning capability, leading to substantial enhancements in traditional tasks. However, deep neural networks (DNNs) have been demonstrated to be vulnerable to adversarial examples crafted by malicious tiny noise, which is imperceptible to human observers but can make DNNs output the wrong result. Existing adversarial attacks can be categorized into digital and physical adversarial attacks. The former is designed to pursue strong attack performance in lab environments while hardly remaining effective when applied to the physical world. In contrast, the latter focus on developing physical deployable attacks, thus exhibiting more robustness in complex physical environmental conditions. Recently, with the increasing deployment of the DNN-based system in the real world, strengthening the robustness of these systems is an emergency, while exploring physical adversarial attacks exhaustively is the precondition. To this end, this paper reviews the evolution of physical adversarial attacks against DNN-based computer vision tasks, expecting to provide beneficial information for developing stronger physical adversarial attacks. Specifically, we first proposed a taxonomy to categorize the current physical adversarial attacks and grouped them. Then, we discuss the existing physical attacks and focus on the technique for improving the robustness of physical attacks under complex physical environmental conditions. Finally, we discuss the issues of the current physical adversarial attacks to be solved and give promising directions.",
+        "year": 2022,
+        "doi": "10.48550/arXiv.2209.14262",
+        "venue": "arXiv.org",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 55,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "A Survey of Adversarial Examples in Computer Vision: Attack, Defense, and Beyond",
+        "authors": [
+            "Keyizhi Xu",
+            "Yajuan Lu",
+            "Zhongyuan Wang",
+            "Chao Liang"
+        ],
+        "abstract": "Recent years have witnessed the ever-increasing performance of Deep Neural Networks (DNNs) in computer vision tasks. However, researchers have identified a potential vulnerability: carefully crafted adversarial examples can easily mislead DNNs into incorrect behavior via the injection of imperceptible modification to the input data. In this survey, we focus on (1) adversarial attack algorithms to generate adversarial examples, (2) adversarial defense techniques to secure DNNs against adversarial examples, and (3) important problems in the realm of adversarial examples beyond attack and defense, including the theoretical explanations, trade-off issues and benign attacks in adversarial examples. Additionally, we draw a brief comparison between recently published surveys on adversarial examples, and identify the future directions for the research of adversarial examples, such as the generalization of methods and the understanding of transferability, that might be solutions to the open problems in this field.",
+        "year": 2025,
+        "doi": "10.1051/wujns/2025301001",
+        "venue": "Wuhan University Journal of Natural Sciences",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 8,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Beyond Vulnerabilities: A Survey of Adversarial Attacks as Both Threats and Defenses in Computer Vision Systems",
+        "authors": [
+            "Zhongliang Guo",
+            "Yifei Qian",
+            "Yan-Li Li",
+            "Wei-Ye Li",
+            "Chun-Tong Lei",
+            "Shuai Zhao",
+            "Lei Fang",
+            "Ognjen Arandjelovi'c",
+            "C. Lau"
+        ],
+        "abstract": "Adversarial attacks against computer vision systems have emerged as a critical research area that challenges the fundamental assumptions about neural network robustness and security. This comprehensive survey examines the evolving landscape of adversarial techniques, revealing their dual nature as both sophisticated security threats and valuable defensive tools. We provide a systematic analysis of adversarial attack methodologies across three primary domains: pixel-space attacks, physically realizable attacks, and latent-space attacks. Our investigation traces the technical evolution from early gradient-based methods such as FGSM and PGD to sophisticated optimization techniques incorporating momentum, adaptive step sizes, and advanced transferability mechanisms. We examine how physically realizable attacks have successfully bridged the gap between digital vulnerabilities and real-world threats through adversarial patches, 3D textures, and dynamic optical perturbations. Additionally, we explore the emergence of latent-space attacks that leverage semantic structure in internal representations to create more transferable and meaningful adversarial examples. Beyond traditional offensive applications, we investigate the constructive use of adversarial techniques for vulnerability assessment in biometric authentication systems and protection against malicious generative models. Our analysis reveals critical research gaps, particularly in neural style transfer protection and computational efficiency requirements. This survey contributes a comprehensive taxonomy, evolution analysis, and identification of future research directions, aiming to advance understanding of adversarial vulnerabilities and inform the development of more robust and trustworthy computer vision systems.",
+        "year": 2025,
+        "doi": "10.48550/arXiv.2508.01845",
+        "venue": "arXiv.org",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 8,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Set-level Guidance Attack: Boosting Adversarial Transferability of Vision-Language Pre-training Models",
+        "authors": [
+            "Dong Lu",
+            "Zhiqiang Wang",
+            "Teng Wang",
+            "Wei-Li Guan",
+            "Hongchang Gao",
+            "Feng Zheng"
+        ],
+        "abstract": "Vision-language pre-training (VLP) models have shown vulnerability to adversarial examples in multimodal tasks. Furthermore, malicious adversaries can be deliberately transferred to attack other black-box models. However, existing work has mainly focused on investigating white-box attacks. In this paper, we present the first study to investigate the adversarial transferability of recent VLP models. We observe that existing methods exhibit much lower transferability, compared to the strong attack performance in white-box settings. The transferability degradation is partly caused by the under-utilization of cross-modal interactions. Particularly, unlike unimodal learning, VLP models rely heavily on cross-modal interactions and the multimodal alignments are many-to-many, e.g., an image can be described in various natural languages. To this end, we propose a highly transferable Set-level Guidance Attack (SGA) that thoroughly leverages modality interactions and incorporates alignment-preserving augmentation with cross-modal guidance. Experimental results demonstrate that SGA could generate adversarial examples that can strongly transfer across different VLP models on multiple downstream vision-language tasks. On image-text retrieval, SGA significantly enhances the attack success rate for transfer attacks from ALBEF to TCL by a large margin (at least 9.78% and up to 30.21%), compared to the state-of-the-art. Our code is available at https://github.com/Zoky-2020/SGA.",
+        "year": 2023,
+        "doi": "10.1109/ICCV51070.2023.00016",
+        "venue": "IEEE International Conference on Computer Vision",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 170,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Chain of Attack: On the Robustness of Vision-Language Models Against Transfer-Based Adversarial Attacks",
+        "authors": [
+            "Peng Xie",
+            "Yequan Bie",
+            "Jianda Mao",
+            "Yangqiu Song",
+            "Yang Wang",
+            "Hao Chen",
+            "Kani Chen"
+        ],
+        "abstract": "Pre-trained vision-language models (VLMs) have showcased remarkable performance in image and natural language understanding, such as image captioning and response generation. As the practical applications of VLMs become increasingly widespread, their potential safety and robustness issues raise concerns that adversaries may evade the system and cause these models to generate toxic content through malicious attacks. Therefore, evaluating the robustness of open-source VLMs against adversarial attacks has garnered growing attention, with transfer-based attacks as a representative black-box attacking strategy. However, most existing transfer-based attacks neglect the importance of the semantic correlations between vision and text modalities, leading to sub-optimal adversarial example generation and attack performance. To address this issue, we present Chain of Attack (CoA)1, which iteratively enhances the generation of adversarial examples based on the multi-modal semantic update using a series of intermediate attacking steps, achieving superior adversarial transferability and efficiency. A unified attack success rate computing method is further proposed for automatic evasion evaluation. Extensive experiments conducted under the most realistic and high-stakes scenario, demonstrate that our attacking strategy is able to effectively mislead models to generate targeted responses using only black-box attacks without any knowledge of the victim models. The comprehensive robustness evaluation in our paper provides insight into the vulnerabilities of VLMs and offers a reference for the safety considerations of future model developments.",
+        "year": 2024,
+        "doi": "10.1109/CVPR52734.2025.01368",
+        "venue": "Computer Vision and Pattern Recognition",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 43,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Adversarial attacks in computer vision: a survey",
+        "authors": [
+            "Chao Li",
+            "Handing Wang",
+            "Wenbiao Yao",
+            "Ting-Song Jiang"
+        ],
+        "abstract": null,
+        "year": 2024,
+        "doi": "10.1007/s41965-024-00142-3",
+        "venue": "Journal of Membrane Computing",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 30,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Boosting the Transferability of Adversarial Attack on Vision Transformer with Adaptive Token Tuning",
+        "authors": [
+            "Di Ming",
+            "Peng Ren",
+            "Yunlong Wang",
+            "Xin Feng"
+        ],
+        "abstract": "Vision transformers (ViTs) perform exceptionally well in various computer vision tasks but remain vulnerable to adversarial attacks. Recent studies have shown that the transferability of adversarial examples exists for CNNs, and the same holds true for ViTs. However, existing ViT attacks aggressively regularize the largest token gradients to exact zero within each layer of the surrogate model, overlooking the interactions between layers, which limits their transferability in attacking black-box models. Therefore, in this paper, we focus on boosting the transferability of adversarial attacks on ViTs through adaptive token tuning (ATT). Specifically, we propose three optimization strategies: an adaptive gradient re-scaling strategy to reduce the overall variance of token gradients, a self-paced patch out strategy to enhance the diversity of input tokens, and a hybrid token gradient truncation strategy to weaken the effectiveness of attention mechanism. We demonstrate that scaling correction of gradient changes using gradient variance across different layers can produce highly transferable adversarial examples. In addition, introducing attentional truncation can mitigate the overfitting over complex interactions between tokens in deep ViT layers to further improve the transferability. On the other hand, using feature importance as a guidance to discard a subset of perturbation patches in each iteration, along with combining self-paced learning and progressively more sampled attacks, significantly enhances the transferability over attacks that use all perturbation patches. Extensive experiments conducted on ViTs, undefended CNNs, and defended CNNs validate the superiority of our proposed ATT attack method. On average, our approach improves the attack performance by 10.1% compared to state-of-the-art transfer-based attacks. Notably, we achieve the best attack performance with an average of 58.3% on three defended CNNs. Code is available at https:/",
+        "year": 2024,
+        "doi": "10.52202/079017-0658",
+        "venue": "Neural Information Processing Systems",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 24,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Adversarial Attacks in Computer Vision: Challenges and Defense Strategies",
+        "authors": [
+            "Shilpa Rani"
+        ],
+        "abstract": "Adversarial attacks have emerged as one of the most critical vulnerabilities in modern computer vision systems powered by deep learning. Despite their remarkable accuracy and generalization capabilities, convolutional neural networks (CNNs), vision transformers (ViTs), and other deep models remain highly susceptible to imperceptible perturbations crafted by adversaries. These perturbations can mislead models into producing incorrect outputs with high confidence, leading to severe consequences in domains such as autonomous driving, biometric authentication, medical imaging, and surveillance. This paper provides an extensive examination of adversarial attacks in computer vision, categorizing them into white-box, black-box, targeted, and untargeted variants. We explore well-known attack techniques such as the Fast Gradient Sign Method (FGSM), Projected Gradient Descent (PGD), Carlini & Wagner (C&W), and transferability-based black-box strategies. Furthermore, we review state-of-the-art defense mechanisms, including adversarial training, input preprocessing, gradient masking, certified defenses, and robust optimization. A statistical analysis is provided to evaluate the performance degradation of vision models under adversarial conditions and the improvement achieved through defense strategies. Our methodology integrates systematic literature review, empirical evaluation, and comparative simulation on benchmark datasets such as MNIST, CIFAR-10, and ImageNet. Results highlight that adversarial training remains the most effective defense but comes at the cost of computational overhead and reduced clean accuracy. The paper concludes by identifying gaps in current defense research and outlining future directions, including adaptive hybrid defenses, explainable adversarial robustness, and biologically inspired vision architectures. The study contributes a comprehensive understanding of adversarial machine learning in computer vision and provides a roadmap for building more secure and trustworthy AI systems.",
+        "year": 2025,
+        "doi": "10.63345/sjaibt.v2.i4.101",
+        "venue": "Scientific Journal of Artificial Intelligence and Blockchain Technologies",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 0,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    },
+    {
+        "id": null,
+        "title": "Adversarial Computer Vision via Acoustic Manipulation of Camera Sensors",
+        "authors": [
+            "Yushi Cheng",
+            "Xiaoyu Ji",
+            "Wenjun Zhu",
+            "Shi-Bo Zhang",
+            "K. Fu",
+            "Wen-Yuan Xu"
+        ],
+        "abstract": "Autonomous vehicles increasingly rely on camera-based computer vision systems to perceive environments and make critical driving decisions. To improve image quality, image stabilizers with inertial sensors are added to reduce image blurring caused by camera jitters. However, this trend creates a new attack surface. This paper identifies a system-level vulnerability resulting from the combination of emerging image stabilizer hardware susceptible to acoustic manipulation and computer vision algorithms subject to adversarial examples. By emitting deliberately designed acoustic signals, an adversary can control the output of an inertial sensor, which triggers unnecessary motion compensation and results in a blurred image, even when the camera is stable. These blurred images can induce object misclassification, affecting safety-critical decision-making. We model the feasibility of such acoustic manipulation and design an attack framework that can accomplish three types of attacks: hiding, creating, and altering objects. Evaluation results demonstrate the effectiveness of our attacks against five object detectors (YOLO V3/V4/V5, Faster R-CNN, and Apollo) and two lane detectors (UFLD and LaneAF). We further introduce the concept of AMpLe attacks, a new class of system-level security vulnerabilities resulting from a combination of adversarial machine learning and physics-based injection of information-carrying signals into hardware.",
+        "year": 2024,
+        "doi": "10.1109/TDSC.2023.3334618",
+        "venue": "IEEE Transactions on Dependable and Secure Computing",
+        "keywords": [],
+        "concepts": [],
+        "publication_type": null,
+        "citations": 12,
+        "url": null,
+        "sources": [
+            "Semantic Scholar"
+        ],
+        "score": null
+    }
+]
